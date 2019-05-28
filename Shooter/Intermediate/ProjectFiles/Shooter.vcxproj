@@ -414,8 +414,10 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Source\Shooter\Shooter.Build.cs" />
     <ClCompile Include="..\..\Source\Shooter\Private\SCharacter.cpp" />
+    <ClCompile Include="..\..\Source\Shooter\Private\SWeapon.cpp" />
     <ClCompile Include="..\..\Source\Shooter\Shooter.cpp" />
     <ClInclude Include="..\..\Source\Shooter\Public\SCharacter.h" />
+    <ClInclude Include="..\..\Source\Shooter\Public\SWeapon.h" />
     <ClInclude Include="..\..\Source\Shooter\Shooter.h" />
     <ClCompile Include="..\..\Source\Shooter\ShooterGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\Shooter\ShooterGameModeBase.h" />

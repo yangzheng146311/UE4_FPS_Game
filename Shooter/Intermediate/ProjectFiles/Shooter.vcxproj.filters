@@ -54,9 +54,15 @@
     <ClInclude Include="..\..\Source\Shooter\Public\SCharacter.h">
       <Filter>Source\Shooter\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter\Public\SWeapon.h">
+      <Filter>Source\Shooter\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Shooter\Private\SCharacter.cpp">
+      <Filter>Source\Shooter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter\Private\SWeapon.cpp">
       <Filter>Source\Shooter\Private</Filter>
     </ClCompile>
   </ItemGroup>
