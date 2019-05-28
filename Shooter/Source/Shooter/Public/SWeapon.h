@@ -25,6 +25,9 @@ protected:
 
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
 	USkeletalMeshComponent* MeshComp;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	TSubclassOf<UDamageType> DamageType;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

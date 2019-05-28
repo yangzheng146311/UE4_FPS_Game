@@ -18,6 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Shooter();
 	SHOOTER_API UFunction* Z_Construct_UFunction_ASWeapon_Fire();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
 	void ASWeapon::StaticRegisterNativesASWeapon()
@@ -67,6 +69,13 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageType_MetaData[] = {
+				{ "Category", "Weapon" },
+				{ "ModuleRelativePath", "Public/SWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_DamageType = { UE4CodeGen_Private::EPropertyClass::Class, "DamageType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000010015, 1, nullptr, STRUCT_OFFSET(ASWeapon, DamageType), Z_Construct_UClass_UDamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_DamageType_MetaData, ARRAY_COUNT(NewProp_DamageType_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeshComp_MetaData[] = {
 				{ "Category", "Components" },
 				{ "EditInline", "true" },
@@ -75,6 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MeshComp = { UE4CodeGen_Private::EPropertyClass::Object, "MeshComp", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(ASWeapon, MeshComp), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_MeshComp_MetaData, ARRAY_COUNT(NewProp_MeshComp_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageType,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MeshComp,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -95,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASWeapon, 1385196090);
+	IMPLEMENT_CLASS(ASWeapon, 3073244210);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASWeapon(Z_Construct_UClass_ASWeapon, &ASWeapon::StaticClass, TEXT("/Script/Shooter"), TEXT("ASWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

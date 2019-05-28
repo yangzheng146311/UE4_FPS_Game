@@ -2,7 +2,7 @@
 
 #include "Public/SWeapon.h"
 #include"Public/DrawDebugHelpers.h"
-
+#include"Kismet//GameplayStatics.h"
 // Sets default values
 ASWeapon::ASWeapon()
 {
@@ -33,20 +33,28 @@ void ASWeapon::Fire()
 
 		MyOwner->GetActorEyesViewPoint(EyeLocation, EyeRotation);
 
-		FVector EndLocation = EyeLocation + EyeRotation.Vector() * 10000;
+		FVector ShotDirection = EyeRotation.Vector();
+
+		FVector EndLocation = EyeLocation + ShotDirection * 10000;
 
 		FHitResult OutHit;
+		
 
 		FCollisionQueryParams Params;
 		Params.AddIgnoredActor(MyOwner);
 		Params.AddIgnoredActor(this);
 		Params.bTraceComplex = true;
-
+		
+		
 		if (GetWorld()->LineTraceSingleByChannel(OutHit, EyeLocation, EndLocation, ECC_Visibility, Params))
 		{
 
 			//TO DO
+			
+			AActor *HitActor = OutHit.GetActor();
+			UGameplayStatics::ApplyPointDamage(HitActor, 20.0f, ShotDirection, OutHit, MyOwner->GetInstigatorController(), this, DamageType);
 		}
+		
 		DrawDebugLine(GetWorld(), EyeLocation, EndLocation, FColor::White, false, 1.0, 0, 1);
 	}
 }
