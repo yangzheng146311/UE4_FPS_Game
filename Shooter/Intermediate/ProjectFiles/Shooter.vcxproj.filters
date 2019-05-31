@@ -1,69 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\Shooter.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{28EC0F16-060D-4392-82DD-17720DC6C705}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Shooter.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\ShooterEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{5452F785-5FF7-4FFB-8B22-1FBC9489A5BD}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\Shooter">
-      <UniqueIdentifier>{6F92CCEA-8A83-4E8F-AC70-E627977626BE}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Shooter\Shooter.Build.cs">
-      <Filter>Source\Shooter</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\Shooter\Shooter.cpp">
-      <Filter>Source\Shooter</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Shooter\Shooter.h">
-      <Filter>Source\Shooter</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Shooter\ShooterGameModeBase.cpp">
-      <Filter>Source\Shooter</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Shooter\ShooterGameModeBase.h">
-      <Filter>Source\Shooter</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\Shooter\Public">
-      <UniqueIdentifier>{8a76fb9f-67c0-4040-a1b5-13c41450911c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Shooter\Private">
-      <UniqueIdentifier>{49ebb571-6213-45f2-8843-7546c58a5e53}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Shooter\Public\SCharacter.h">
-      <Filter>Source\Shooter\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Shooter\Public\SWeapon.h">
-      <Filter>Source\Shooter\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Shooter\Private\SCharacter.cpp">
-      <Filter>Source\Shooter\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Shooter\Private\SWeapon.cpp">
-      <Filter>Source\Shooter\Private</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Shooter.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D8073D64-9AE6-4C94-BE0F-4C43CA10E03C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Shooter.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ShooterEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{5E1D6424-3DD8-4BD4-8300-8CA0C1A1589C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Shooter">
+			<UniqueIdentifier>{C4E598FC-8719-4D7D-AFFC-70A529AAF9E4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Shooter\Shooter.Build.cs">
+			<Filter>Source\Shooter</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Shooter\Shooter.cpp">
+			<Filter>Source\Shooter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Shooter\Shooter.h">
+			<Filter>Source\Shooter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Shooter\ShooterGameModeBase.cpp">
+			<Filter>Source\Shooter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Shooter\ShooterGameModeBase.h">
+			<Filter>Source\Shooter</Filter>
+		</ClInclude >
+		<Filter Include="Source\Shooter\Private">
+			<UniqueIdentifier>{7C2502CD-6241-459B-9779-6013641572E2}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Shooter\Private\SCharacter.cpp">
+			<Filter>Source\Shooter\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Shooter\Private\SWeapon.cpp">
+			<Filter>Source\Shooter\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Shooter\Public">
+			<UniqueIdentifier>{72816FB8-C257-4006-8E7F-CEDA28C02F63}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Shooter\Public\SCharacter.h">
+			<Filter>Source\Shooter\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Shooter\Public\SWeapon.h">
+			<Filter>Source\Shooter\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

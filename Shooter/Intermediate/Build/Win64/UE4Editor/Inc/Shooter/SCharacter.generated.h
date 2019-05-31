@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTER_SCharacter_generated_h
 
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_RPC_WRAPPERS
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_RPC_WRAPPERS
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend SHOOTER_API class UClass* Z_Construct_UClass_ASCharacter(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_INCLASS \
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend SHOOTER_API class UClass* Z_Construct_UClass_ASCharacter(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASCharacter) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASCharacter(ASCharacter&&); \
@@ -59,30 +59,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASCharacter)
 
 
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(ASCharacter, CameraComp); } \
-	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(ASCharacter, SpringArmComp); }
+	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(ASCharacter, SpringArmComp); } \
+	FORCEINLINE static uint32 __PPO__ZoomedFOV() { return STRUCT_OFFSET(ASCharacter, ZoomedFOV); } \
+	FORCEINLINE static uint32 __PPO__ZoomInterpSpeed() { return STRUCT_OFFSET(ASCharacter, ZoomInterpSpeed); } \
+	FORCEINLINE static uint32 __PPO__StarterWeaponClass() { return STRUCT_OFFSET(ASCharacter, StarterWeaponClass); }
 
 
-#define Shooter_Source_Shooter_Public_SCharacter_h_11_PROLOG
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_GENERATED_BODY_LEGACY \
+#define Shooter_Source_Shooter_Public_SCharacter_h_12_PROLOG
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Shooter_Source_Shooter_Public_SCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	Shooter_Source_Shooter_Public_SCharacter_h_14_RPC_WRAPPERS \
-	Shooter_Source_Shooter_Public_SCharacter_h_14_INCLASS \
-	Shooter_Source_Shooter_Public_SCharacter_h_14_STANDARD_CONSTRUCTORS \
+	Shooter_Source_Shooter_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	Shooter_Source_Shooter_Public_SCharacter_h_15_RPC_WRAPPERS \
+	Shooter_Source_Shooter_Public_SCharacter_h_15_INCLASS \
+	Shooter_Source_Shooter_Public_SCharacter_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Shooter_Source_Shooter_Public_SCharacter_h_14_GENERATED_BODY \
+#define Shooter_Source_Shooter_Public_SCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Shooter_Source_Shooter_Public_SCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	Shooter_Source_Shooter_Public_SCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	Shooter_Source_Shooter_Public_SCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	Shooter_Source_Shooter_Public_SCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	Shooter_Source_Shooter_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	Shooter_Source_Shooter_Public_SCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Shooter_Source_Shooter_Public_SCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	Shooter_Source_Shooter_Public_SCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -8,6 +8,7 @@
 
 class UCameraComponent;
 class USpringArmComponent;
+class ASWeapon;
 UCLASS()
 class SHOOTER_API ASCharacter : public ACharacter
 {
@@ -25,12 +26,30 @@ protected:
 	void MoveRight(float value);
 	void StartCrouch();
 	void EndCrouch();
-
+	void StartZoom();
+	void EndZoom();
+	void StartFire();
+	void EndFire();
 	UPROPERTY(VisibleAnyWhere,BlueprintReadOnly,Category="Components")
 	UCameraComponent *CameraComp;
 
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
 	USpringArmComponent *SpringArmComp;
+
+	bool bWantsToZoom;
+
+	float DefaultFOV;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	float ZoomedFOV;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player",meta=(ClampMin=0.1,ClampMax=100))
+	float ZoomInterpSpeed;
+
+	ASWeapon* CurrentWeapon;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	TSubclassOf<ASWeapon> StarterWeaponClass;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
