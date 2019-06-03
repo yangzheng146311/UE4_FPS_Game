@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\Shooter.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{D8073D64-9AE6-4C94-BE0F-4C43CA10E03C}</UniqueIdentifier>
+			<UniqueIdentifier>{31C65787-1920-4E59-BD3F-40DAFDF773AD}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Shooter.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{5E1D6424-3DD8-4BD4-8300-8CA0C1A1589C}</UniqueIdentifier>
+			<UniqueIdentifier>{1161AEE8-A7B0-48AC-A608-B40AD6E0C15A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Shooter">
-			<UniqueIdentifier>{C4E598FC-8719-4D7D-AFFC-70A529AAF9E4}</UniqueIdentifier>
+			<UniqueIdentifier>{655CFE34-C40E-4B34-A5C8-BF71F9AFCEB7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Shooter\Shooter.Build.cs">
 			<Filter>Source\Shooter</Filter>
@@ -46,7 +46,7 @@
 			<Filter>Source\Shooter</Filter>
 		</ClInclude >
 		<Filter Include="Source\Shooter\Private">
-			<UniqueIdentifier>{7C2502CD-6241-459B-9779-6013641572E2}</UniqueIdentifier>
+			<UniqueIdentifier>{41BFBAC5-EE8B-438F-9C27-8112BB1E961C}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Shooter\Private\SCharacter.cpp">
 			<Filter>Source\Shooter\Private</Filter>
@@ -54,14 +54,26 @@
 		<ClCompile Include="..\..\Source\Shooter\Private\SWeapon.cpp">
 			<Filter>Source\Shooter\Private</Filter>
 		</ClCompile >
+		<Filter Include="Source\Shooter\Private\Components">
+			<UniqueIdentifier>{5F046922-7D78-41A0-A499-84C08E22B034}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Shooter\Private\Components\USHealthComponent.cpp">
+			<Filter>Source\Shooter\Private\Components</Filter>
+		</ClCompile >
 		<Filter Include="Source\Shooter\Public">
-			<UniqueIdentifier>{72816FB8-C257-4006-8E7F-CEDA28C02F63}</UniqueIdentifier>
+			<UniqueIdentifier>{EBEE6A6F-0F55-4263-B582-661F54712A10}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\Shooter\Public\SCharacter.h">
 			<Filter>Source\Shooter\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Source\Shooter\Public\SWeapon.h">
 			<Filter>Source\Shooter\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\Shooter\Public\Components">
+			<UniqueIdentifier>{FFED6F56-8228-4217-BD8A-EDA63454048A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Shooter\Public\Components\USHealthComponent.h">
+			<Filter>Source\Shooter\Public\Components</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>

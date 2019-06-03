@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Shooter-6588.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\temp\UE4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\Shooter.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\ShooterGameModeBase.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\SCharacter.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\SWeapon.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\USHealthComponent.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\SCharacter.gen.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\Shooter.init.gen.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\ShooterGameModeBase.gen.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\SWeapon.gen.cpp.obj"
+"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\USHealthComponent.gen.cpp.obj"
+"C:\temp\UE4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Shooter\PCLaunch.rc.res"
+"C:\temp\UE4.19\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\temp\UE Projects\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-6588.lib"
