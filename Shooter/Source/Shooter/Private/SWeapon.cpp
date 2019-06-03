@@ -71,7 +71,7 @@ void ASWeapon::Fire()
 		Params.bReturnPhysicalMaterial = true;
 
 
-		if (GetWorld()->LineTraceSingleByChannel(OutHit, EyeLocation, EndLocation, ECC_Visibility, Params))
+		if (GetWorld()->LineTraceSingleByChannel(OutHit, EyeLocation, EndLocation, COLLISION_WEAPON, Params))
 		{
 			TracerEndPoint = OutHit.ImpactPoint;
 			//TO DO

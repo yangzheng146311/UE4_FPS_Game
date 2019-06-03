@@ -26,6 +26,7 @@ protected:
 	UPROPERTY(BlueprintReadWrite, Category = "HealthComponent")
 	float CurrentHealth;
 
+	UFUNCTION()
 	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 public:	
 

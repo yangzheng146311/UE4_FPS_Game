@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeShooter_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Shooter",
 				PKG_CompiledIn | 0x00000000,
-				0x86053E46,
-				0x7F4AB143,
+				0x664EAB48,
+				0x8D759462,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

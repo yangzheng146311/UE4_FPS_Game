@@ -6,3 +6,4 @@
 
 #define  SURFACETYPE_FleshDefault SurfaceType1
 #define  SURFACETYPE_FleshVulnerable SurfaceType2 
+#define  COLLISION_WEAPON ECC_GameTraceChannel1

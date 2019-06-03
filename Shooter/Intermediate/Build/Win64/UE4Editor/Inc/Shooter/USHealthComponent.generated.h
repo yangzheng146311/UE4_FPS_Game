@@ -8,13 +8,46 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UDamageType;
+class AController;
 #ifdef SHOOTER_USHealthComponent_generated_h
 #error "USHealthComponent.generated.h already included, missing '#pragma once' in USHealthComponent.h"
 #endif
 #define SHOOTER_USHealthComponent_generated_h
 
-#define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_13_RPC_WRAPPERS
-#define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleTakeAnyDamage) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_DamagedActor); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HandleTakeAnyDamage(Z_Param_DamagedActor,Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
+		P_NATIVE_END; \
+	}
+
+
+#define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleTakeAnyDamage) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_DamagedActor); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HandleTakeAnyDamage(Z_Param_DamagedActor,Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
+		P_NATIVE_END; \
+	}
+
+
 #define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUUSHealthComponent(); \
@@ -60,7 +93,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUSHealthComponent); \
 
 
 #define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__DefaultHealth() { return STRUCT_OFFSET(UUSHealthComponent, DefaultHealth); }
+	FORCEINLINE static uint32 __PPO__DefaultHealth() { return STRUCT_OFFSET(UUSHealthComponent, DefaultHealth); } \
+	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(UUSHealthComponent, CurrentHealth); }
 
 
 #define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_10_PROLOG
