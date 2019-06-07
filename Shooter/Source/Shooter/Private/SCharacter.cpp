@@ -6,7 +6,8 @@
 #include"GameFramework/PawnMovementComponent.h"
 #include"Public/SWeapon.h"
 #include"Engine/World.h"
-
+#include"USHealthComponent.h"
+#include"Components/CapsuleComponent.h"
 // Sets default values
 ASCharacter::ASCharacter()
 {
@@ -23,8 +24,12 @@ ASCharacter::ASCharacter()
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComp"));
 	CameraComp->SetupAttachment(SpringArmComp);
 
+	HealthComp= CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
+
 	ZoomedFOV = 65;
 	ZoomInterpSpeed = 0.1f;
+
+	bDied= false;
 
 	
 }
@@ -38,6 +43,11 @@ void ASCharacter::BeginPlay()
 	FActorSpawnParameters SpawnParams;
 
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	HealthComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
+
+
+
 	if (StarterWeaponClass)
 	{
 		CurrentWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
@@ -48,6 +58,9 @@ void ASCharacter::BeginPlay()
 		CurrentWeapon->SetOwner(this);
 		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
 	}
+
+
+
 }
 
 void ASCharacter::MoveForward(float value)
@@ -89,6 +102,19 @@ void ASCharacter::StartFire()
 void ASCharacter::EndFire()
 {
 	CurrentWeapon->EndFire();
+}
+
+void ASCharacter::OnHealthChanged(USHealthComponent * HealthComponet, float Health, float HealthDelta, const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
+{
+
+	if (Health <= 0&&!bDied)
+	{
+		GetMovementComponent()->StopMovementImmediately();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+
+	}
+
 }
 
 // Called every frame

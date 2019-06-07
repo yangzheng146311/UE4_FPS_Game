@@ -1,26 +1,2 @@
-﻿  Cleaning ShooterEditor Binaries...
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for ShooterEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Parsing headers for ShooterEditor
-    Running UnrealHeaderTool "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Shooter.uproject" "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ShooterEditor in 8.5301903 seconds
-  Performing 13 actions (4 in parallel)
-  [2/13] Resource ModuleVersionResource.rc.inl
-  [3/13] Resource PCLaunch.rc
-  SharedPCH.Engine.cpp
-  Shooter.cpp
-  ShooterGameModeBase.cpp
-  SCharacter.cpp
-  SWeapon.cpp
-  SCharacter.gen.cpp
-  Shooter.init.gen.cpp
-  ShooterGameModeBase.gen.cpp
-  SWeapon.gen.cpp
-  [12/13] Link UE4Editor-Shooter.dll
-  [13/13] Link UE4Editor-Shooter.lib
-     Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter.exp
-     Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter.suppressed.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter.suppressed.exp
-  Deploying ShooterEditor Win64 Development...
-  Total build time: 39.93 seconds (Local executor: 24.49 seconds)
+﻿  The system cannot find the path specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "C:\temp\UE4.19\UE_4.19\Engine\Build\BatchFiles\Build.bat ShooterEditor Win64 Development "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Shooter.uproject" -WaitMutex -FromMsBuild" exited with code 3.

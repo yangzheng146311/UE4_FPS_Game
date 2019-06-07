@@ -9,6 +9,7 @@
 class UCameraComponent;
 class USpringArmComponent;
 class ASWeapon;
+class USHealthComponent;
 UCLASS()
 class SHOOTER_API ASCharacter : public ACharacter
 {
@@ -46,7 +47,15 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Player",meta=(ClampMin=0.1,ClampMax=100))
 	float ZoomInterpSpeed;
 
+	bool bDied;
+
 	ASWeapon* CurrentWeapon;
+
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly, Category = "Health")
+	USHealthComponent* HealthComp;
+
+	UFUNCTION()
+	void OnHealthChanged(USHealthComponent* HealthComponent, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
 	UPROPERTY(EditDefaultsOnly, Category = "Player")
 	TSubclassOf<ASWeapon> StarterWeaponClass;

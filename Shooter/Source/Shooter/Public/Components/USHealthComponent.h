@@ -7,14 +7,16 @@
 #include "USHealthComponent.generated.h"
 
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_SixParams(FOnHealthChangedSignature, USHealthComponent*, HealthComponent, float, Health, float, HealthDelta,const class UDamageType*, DamageType, class AController*, InstigatedBy, AActor*, DamageCauser);
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class SHOOTER_API UUSHealthComponent : public UActorComponent
+class SHOOTER_API USHealthComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UUSHealthComponent();
+	USHealthComponent();
 
 protected:
 	// Called when the game starts
@@ -29,7 +31,8 @@ protected:
 	UFUNCTION()
 	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 public:	
-
+	UPROPERTY(BlueprintAssignable,Category="Events")
+	FOnHealthChangedSignature OnHealthChanged;
 
 		
 	

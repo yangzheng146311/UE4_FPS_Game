@@ -11,17 +11,21 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeShooter_init() {}
+	SHOOTER_API UFunction* Z_Construct_UDelegateFunction_Shooter_OnHealthChangedSignature__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Shooter()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_Shooter_OnHealthChangedSignature__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Shooter",
 				PKG_CompiledIn | 0x00000000,
-				0x664EAB48,
-				0x8D759462,
-				nullptr, 0,
+				0x152B0C99,
+				0x600C9D7C,
+				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
