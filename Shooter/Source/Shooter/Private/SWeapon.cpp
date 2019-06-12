@@ -93,6 +93,7 @@ void ASWeapon::Fire()
 				SelectedEffect = FleshImpactEffect;
 				break;
 			default:
+				UGameplayStatics::ApplyPointDamage(HitActor, BaseDamage, ShotDirection, OutHit, MyOwner->GetInstigatorController(), this, DamageType);
 				SelectedEffect = DefaultImpactEffect;
 				break;
 			}
