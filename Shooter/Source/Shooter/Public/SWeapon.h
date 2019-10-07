@@ -9,6 +9,17 @@
 class USkeletalMeshComponent;
 class UParticleSystem;
 
+USTRUCT()
+struct FHitScanTrace {
+	GENERATED_BODY()
+
+public:
+	UPROPERTY()
+		FVector_NetQuantize TraceFrom;
+	UPROPERTY()
+	FVector_NetQuantize TraceTo;
+};
+
 UCLASS()
 class SHOOTER_API ASWeapon : public AActor
 {
@@ -58,9 +69,22 @@ protected:
 	float TimeBetweenShots;
 
 	float LastFireTime;
-public:	
+
+	UPROPERTY(ReplicatedUsing = OnRep_HitScanTrace)
+	FHitScanTrace HitScanTrace;
+
+	UFUNCTION()
+	void OnRep_HitScanTrace();
+
+
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	void Fire();
+
+	UFUNCTION(Server, Reliable, WithValidation)
+	void ServerFire();
+public:	
+	
+
 	void StartFire();
 	void EndFire();
 

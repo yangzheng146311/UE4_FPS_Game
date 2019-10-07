@@ -13,7 +13,27 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTER_SWeapon_generated_h
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_RPC_WRAPPERS \
+#define Shooter_Source_Shooter_Public_SWeapon_h_14_GENERATED_BODY \
+	friend SHOOTER_API class UScriptStruct* Z_Construct_UScriptStruct_FHitScanTrace(); \
+	SHOOTER_API static class UScriptStruct* StaticStruct();
+
+
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_RPC_WRAPPERS \
+	virtual bool ServerFire_Validate(); \
+	virtual void ServerFire_Implementation(); \
+ \
+	DECLARE_FUNCTION(execServerFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->ServerFire_Validate()) \
+		{ \
+			RPC_ValidateFailed(TEXT("ServerFire_Validate")); \
+			return; \
+		} \
+		P_THIS->ServerFire_Implementation(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \
@@ -21,10 +41,33 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->Fire(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_HitScanTrace) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_HitScanTrace(); \
+		P_NATIVE_END; \
 	}
 
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool ServerFire_Validate(); \
+	virtual void ServerFire_Implementation(); \
+ \
+	DECLARE_FUNCTION(execServerFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->ServerFire_Validate()) \
+		{ \
+			RPC_ValidateFailed(TEXT("ServerFire_Validate")); \
+			return; \
+		} \
+		P_THIS->ServerFire_Implementation(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \
@@ -32,30 +75,42 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->Fire(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_HitScanTrace) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_HitScanTrace(); \
+		P_NATIVE_END; \
 	}
 
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_INCLASS_NO_PURE_DECLS \
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_EVENT_PARMS
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_CALLBACK_WRAPPERS
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
 	friend SHOOTER_API class UClass* Z_Construct_UClass_ASWeapon(); \
 public: \
 	DECLARE_CLASS(ASWeapon, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Shooter"), NO_API) \
 	DECLARE_SERIALIZER(ASWeapon) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_INCLASS \
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_INCLASS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
 	friend SHOOTER_API class UClass* Z_Construct_UClass_ASWeapon(); \
 public: \
 	DECLARE_CLASS(ASWeapon, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Shooter"), NO_API) \
 	DECLARE_SERIALIZER(ASWeapon) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_STANDARD_CONSTRUCTORS \
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASWeapon) \
@@ -68,7 +123,7 @@ private: \
 public:
 
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_ENHANCED_CONSTRUCTORS \
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASWeapon(ASWeapon&&); \
@@ -79,7 +134,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASWeapon)
 
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(ASWeapon, MeshComp); } \
 	FORCEINLINE static uint32 __PPO__DamageType() { return STRUCT_OFFSET(ASWeapon, DamageType); } \
 	FORCEINLINE static uint32 __PPO__FireCamShake() { return STRUCT_OFFSET(ASWeapon, FireCamShake); } \
@@ -89,28 +144,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__TraceEffect() { return STRUCT_OFFSET(ASWeapon, TraceEffect); } \
 	FORCEINLINE static uint32 __PPO__MuzzleSocketName() { return STRUCT_OFFSET(ASWeapon, MuzzleSocketName); } \
 	FORCEINLINE static uint32 __PPO__BaseDamage() { return STRUCT_OFFSET(ASWeapon, BaseDamage); } \
-	FORCEINLINE static uint32 __PPO__TimeBetweenShots() { return STRUCT_OFFSET(ASWeapon, TimeBetweenShots); }
+	FORCEINLINE static uint32 __PPO__TimeBetweenShots() { return STRUCT_OFFSET(ASWeapon, TimeBetweenShots); } \
+	FORCEINLINE static uint32 __PPO__HitScanTrace() { return STRUCT_OFFSET(ASWeapon, HitScanTrace); }
 
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_12_PROLOG
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_GENERATED_BODY_LEGACY \
+#define Shooter_Source_Shooter_Public_SWeapon_h_23_PROLOG \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_EVENT_PARMS
+
+
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Shooter_Source_Shooter_Public_SWeapon_h_15_PRIVATE_PROPERTY_OFFSET \
-	Shooter_Source_Shooter_Public_SWeapon_h_15_RPC_WRAPPERS \
-	Shooter_Source_Shooter_Public_SWeapon_h_15_INCLASS \
-	Shooter_Source_Shooter_Public_SWeapon_h_15_STANDARD_CONSTRUCTORS \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_PRIVATE_PROPERTY_OFFSET \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_RPC_WRAPPERS \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_CALLBACK_WRAPPERS \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_INCLASS \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Shooter_Source_Shooter_Public_SWeapon_h_15_GENERATED_BODY \
+#define Shooter_Source_Shooter_Public_SWeapon_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Shooter_Source_Shooter_Public_SWeapon_h_15_PRIVATE_PROPERTY_OFFSET \
-	Shooter_Source_Shooter_Public_SWeapon_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Shooter_Source_Shooter_Public_SWeapon_h_15_INCLASS_NO_PURE_DECLS \
-	Shooter_Source_Shooter_Public_SWeapon_h_15_ENHANCED_CONSTRUCTORS \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_PRIVATE_PROPERTY_OFFSET \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_CALLBACK_WRAPPERS \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_INCLASS_NO_PURE_DECLS \
+	Shooter_Source_Shooter_Public_SWeapon_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

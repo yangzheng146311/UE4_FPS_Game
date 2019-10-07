@@ -50,6 +50,7 @@ protected:
 	UPROPERTY(BlueprintReadOnly, Category = "Health")
 	bool bDied;
 
+	UPROPERTY(Replicated)
 	ASWeapon* CurrentWeapon;
 
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly, Category = "Health")

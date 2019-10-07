@@ -10,7 +10,7 @@
 #include"Shooter.h"
 #include"UObject//ConstructorHelpers.h"
 #include"Public/TimerManager.h"
-
+#include "Net/UnrealNetwork.h"
 static int32 DebugWeaponDrawing = 0;
 FAutoConsoleVariableRef  CVARDebugWeaponDrawing(
 	TEXT("Shoot.DebugWeapons"),
@@ -40,11 +40,16 @@ ASWeapon::ASWeapon()
 
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> TE(TEXT("'/Game/WeaponEffects/BasicTracer/P_SmokeTrail'"));
 	TraceEffect = TE.Object;
+
+	SetReplicates(true);
 }
 
 
 void ASWeapon::Fire()
 {
+	if (Role < ROLE_Authority) {
+		ServerFire();
+	}
 	AActor *MyOwner = GetOwner();
 
 	if (MyOwner)
@@ -110,9 +115,33 @@ void ASWeapon::Fire()
 
 		PlayFireEffect(TracerEndPoint);
 
+
+		if (Role == ROLE_Authority) {
+			HitScanTrace.TraceTo = TracerEndPoint;
+		
+		}
+
+
 		LastFireTime = GetWorld()->TimeSeconds;
 	}
 }
+void ASWeapon::ServerFire_Implementation()
+{
+	Fire();
+}
+
+bool ASWeapon::ServerFire_Validate()
+{
+	return true;
+}
+
+
+void ASWeapon::OnRep_HitScanTrace()
+{
+	PlayFireEffect(HitScanTrace.TraceTo);
+	
+}
+
 
 void ASWeapon::StartFire()
 {
@@ -165,3 +194,9 @@ void ASWeapon::PlayFireEffect(FVector TracerEndPoint)
 }
 
 
+void ASWeapon::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME_CONDITION(ASWeapon, HitScanTrace, COND_SkipOwner);
+}

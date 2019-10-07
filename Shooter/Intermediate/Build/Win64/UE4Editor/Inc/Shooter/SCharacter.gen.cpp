@@ -122,6 +122,12 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HealthComp = { UE4CodeGen_Private::EPropertyClass::Object, "HealthComp", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(ASCharacter, HealthComp), Z_Construct_UClass_USHealthComponent_NoRegister, METADATA_PARAMS(NewProp_HealthComp_MetaData, ARRAY_COUNT(NewProp_HealthComp_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentWeapon_MetaData[] = {
+				{ "ModuleRelativePath", "Public/SCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentWeapon = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentWeapon", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000020, 1, nullptr, STRUCT_OFFSET(ASCharacter, CurrentWeapon), Z_Construct_UClass_ASWeapon_NoRegister, METADATA_PARAMS(NewProp_CurrentWeapon_MetaData, ARRAY_COUNT(NewProp_CurrentWeapon_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bDied_MetaData[] = {
 				{ "Category", "Health" },
 				{ "ModuleRelativePath", "Public/SCharacter.h" },
@@ -164,6 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_StarterWeaponClass,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HealthComp,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentWeapon,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bDied,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ZoomInterpSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ZoomedFOV,
@@ -188,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASCharacter, 2934964360);
+	IMPLEMENT_CLASS(ASCharacter, 1881232836);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASCharacter(Z_Construct_UClass_ASCharacter, &ASCharacter::StaticClass, TEXT("/Script/Shooter"), TEXT("ASCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

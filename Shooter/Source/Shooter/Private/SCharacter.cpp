@@ -8,6 +8,7 @@
 #include"Engine/World.h"
 #include"USHealthComponent.h"
 #include"Components/CapsuleComponent.h"
+#include "Net/UnrealNetwork.h"
 // Sets default values
 ASCharacter::ASCharacter()
 {
@@ -27,7 +28,7 @@ ASCharacter::ASCharacter()
 	HealthComp= CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 
 	ZoomedFOV = 65;
-	ZoomInterpSpeed = 0.1f;
+	ZoomInterpSpeed = 3.0f;
 
 	bDied= false;
 
@@ -46,17 +47,19 @@ void ASCharacter::BeginPlay()
 
 	HealthComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
 
-
-
-	if (StarterWeaponClass)
+	if (Role == ROLE_Authority)
 	{
-		CurrentWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
-	}
 
-	if (CurrentWeapon)
-	{
-		CurrentWeapon->SetOwner(this);
-		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+		if (StarterWeaponClass)
+		{
+			CurrentWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+		}
+
+		if (CurrentWeapon)
+		{
+			CurrentWeapon->SetOwner(this);
+			CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+		}
 	}
 
 
@@ -96,11 +99,13 @@ void ASCharacter::EndZoom()
 
 void ASCharacter::StartFire()
 {
+	if (CurrentWeapon)
 	CurrentWeapon->StartFire();
 }
 
 void ASCharacter::EndFire()
 {
+	if (CurrentWeapon)
 	CurrentWeapon->EndFire();
 }
 
@@ -162,4 +167,8 @@ FVector ASCharacter::GetPawnViewLocation() const
 
 	return Super::GetPawnViewLocation();
 }
-
+void ASCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(ASCharacter, CurrentWeapon);
+	
+}

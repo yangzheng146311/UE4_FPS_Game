@@ -23,8 +23,8 @@ void EmptyLinkFunctionForGeneratedCodeShooter_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Shooter",
 				PKG_CompiledIn | 0x00000000,
-				0x6A87AD7B,
-				0xBCDF198F,
+				0xFFB4A838,
+				0x5C2CD038,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};

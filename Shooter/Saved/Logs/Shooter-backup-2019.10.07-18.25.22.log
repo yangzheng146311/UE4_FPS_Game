@@ -1,0 +1,1238 @@
+﻿Log file open, 06/12/19 00:52:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Shooter
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(284699036) SRandInit(284699037).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.279190
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.626s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Binaries/Win64/UE4Editor-Shooter-6032.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-N37MKPN (10.93.69.52:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.086s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.06.11-23.52.59:564][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.11-23.52.59:564][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.11-23.52.59:583][  0]LogInit: Computer: DESKTOP-N37MKPN
+[2019.06.11-23.52.59:583][  0]LogInit: User: ZHENGYANG
+[2019.06.11-23.52.59:583][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.11-23.52.59:583][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.06.11-23.52.59:583][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.06.11-23.52.59:583][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.11-23.52.59:583][  0]LogMemory: Process Physical Memory: 275.14 MB used, 275.15 MB peak
+[2019.06.11-23.52.59:583][  0]LogMemory: Process Virtual Memory: 264.69 MB used, 264.69 MB peak
+[2019.06.11-23.52.59:583][  0]LogMemory: Physical Memory: 4908.69 MB used,  11357.08 MB free, 16265.77 MB total
+[2019.06.11-23.52.59:583][  0]LogMemory: Virtual Memory: 4779.10 MB used,  11357.08 MB free, 134217728.00 MB total
+[2019.06.11-23.52.59:604][  0]LogInit: Using OS detected language (en-GB).
+[2019.06.11-23.52.59:604][  0]LogInit: Using OS detected locale (en-GB).
+[2019.06.11-23.52.59:607][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.06.11-23.53.00:023][  0]LogStreaming: Display: Took  0.420s to EndInitTextLocalization.
+[2019.06.11-23.53.00:024][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.11-23.53.00:058][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.11-23.53.00:058][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.11-23.53.00:269][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.11-23.53.00:336][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.06.11-23.53.00:336][  0]LogD3D11RHI:       2987/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.11-23.53.00:350][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.06.11-23.53.00:350][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.06.11-23.53.00:352][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.11-23.53.00:353][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.11-23.53.00:353][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.11-23.53.00:378][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.11-23.53.00:378][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.11-23.53.00:378][  0]LogWindows: EnumDisplayDevices:
+[2019.06.11-23.53.00:378][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.06.11-23.53.00:378][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.11-23.53.00:379][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.11-23.53.00:379][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.06.11-23.53.00:379][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.06.11-23.53.00:379][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.06.11-23.53.00:379][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.06.11-23.53.00:380][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.06.11-23.53.00:380][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.06.11-23.53.00:380][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.06.11-23.53.00:380][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.06.11-23.53.00:380][  0]LogRHI: Texture pool is 2090 MB (70% of 2987 MB)
+[2019.06.11-23.53.00:420][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.06.11-23.53.00:421][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.06.11-23.53.00:421][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.11-23.53.00:433][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.11-23.53.00:436][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Intermediate/Shaders/WorkingDirectory/8120/).
+[2019.06.11-23.53.00:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ZHENG YANG/AppData/Local/Temp/UnrealShaderWorkingDir/0DA6616F4CBCFE9DFD64EB8513BFDACA/'.
+[2019.06.11-23.53.00:679][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.11-23.53.00:693][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.11-23.53.00:708][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.11-23.53.00:722][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.11-23.53.00:735][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.11-23.53.00:750][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.11-23.53.00:764][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.11-23.53.00:779][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.11-23.53.00:785][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.11-23.53.00:799][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.06.11-23.53.00:812][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.06.11-23.53.00:825][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.06.11-23.53.00:837][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.06.11-23.53.00:850][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.06.11-23.53.00:862][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.06.11-23.53.00:887][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.06.11-23.53.00:887][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.06.11-23.53.00:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.11-23.53.00:901][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.11-23.53.00:939][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.11-23.53.00:951][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.11-23.53.00:963][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.11-23.53.00:975][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.11-23.53.00:987][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.11-23.53.01:000][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.11-23.53.01:000][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.11-23.53.01:107][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.11-23.53.01:107][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.11-23.53.01:107][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.11-23.53.01:871][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.11-23.53.01:934][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/ZHENG YANG/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.06.11-23.53.01:934][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ZHENG YANG/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.06.11-23.53.01:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.11-23.53.01:934][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.11-23.53.01:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.11-23.53.01:934][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.11-23.53.01:949][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.11-23.53.01:963][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ZHENG YANG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.11-23.53.01:963][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.11-23.53.01:963][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.11-23.53.01:975][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.11-23.53.01:976][  0]LogSlate: Using Freetype 2.6.0
+[2019.06.11-23.53.01:976][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.11-23.53.01:976][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.11-23.53.02:098][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2019.06.11-23.53.02:397][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.11-23.53.02:548][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.11-23.53.02:551][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.11-23.53.02:551][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.11-23.53.02:551][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.11-23.53.02:551][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.06.11-23.53.02:551][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.06.11-23.53.02:580][  0]LogNetVersion: Shooter , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 979305562)
+[2019.06.11-23.53.03:061][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.113493 seconds
+[2019.06.11-23.53.03:066][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.06.11-23.53.03:066][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.06.11-23.53.03:066][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.11-23.53.04:638][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.11-23.53.04:666][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.11-23.53.06:145][  0]SourceControl: Source control is disabled
+[2019.06.11-23.53.06:145][  0]SourceControl: Source control is disabled
+[2019.06.11-23.53.06:162][  0]SourceControl: Source control is disabled
+[2019.06.11-23.53.06:179][  0]SourceControl: Source control is disabled
+[2019.06.11-23.53.06:631][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.11-23.53.06:784][  0]LogOcInput: OculusInput pre-init called
+[2019.06.11-23.53.06:983][  0]LogEngine: Initializing Engine...
+[2019.06.11-23.53.07:032][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.06.11-23.53.07:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.11-23.53.07:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.11-23.53.07:248][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.11-23.53.07:260][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.11-23.53.07:457][  0]LogInit: FAudioDevice initialized.
+[2019.06.11-23.53.07:537][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/ZHENG YANG/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.06.11-23.53.07:545][  0]LogInit: Texture streaming: Enabled
+[2019.06.11-23.53.07:562][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.11-23.53.07:577][  0]LogInit: Transaction tracking system initialized
+[2019.06.11-23.53.07:600][  0]BlueprintLog: New page: Editor Load
+[2019.06.11-23.53.07:677][  0]LocalizationService: Localization service is disabled
+[2019.06.11-23.53.07:774][  0]LogConsoleResponse: Display: 
+[2019.06.11-23.53.07:966][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.11-23.53.07:966][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.11-23.53.07:966][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.11-23.53.07:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.11-23.53.07:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.11-23.53.08:311][  0]LogFileCache: Scanning file cache for directory 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/' took 0.03s
+[2019.06.11-23.53.08:311][  0]SourceControl: Source control is disabled
+[2019.06.11-23.53.08:311][  0]Cmd: MAP LOAD FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.11-23.53.08:331][  0]LightingResults: New page: Lighting Build
+[2019.06.11-23.53.08:334][  0]MapCheck: New page: Map Check
+[2019.06.11-23.53.08:334][  0]LightingResults: New page: Lighting Build
+[2019.06.11-23.53.08:693][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a5d9ca1a0, Size=88, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.11-23.53.08:715][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a5d9ca1a0, Size=88
+[2019.06.11-23.53.08:715][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a5d9ca1a0, Size=88, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_0:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.11-23.53.08:731][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a37978940, Size=88, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.11-23.53.09:761][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a378b2b10, Size=80, Default__BP_SCharacter_C Function /Game/Blueprints/BP_SCharacter.BP_SCharacter_C:ExecuteUbergraph_BP_SCharacter
+[2019.06.11-23.53.09:766][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a378b2b10, Size=80
+[2019.06.11-23.53.09:766][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a3f9a8a90, Size=80, Default__BP_SCharacter_C Function /Engine/Transient.REINST_BP_SCharacter_C_3:ExecuteUbergraph_BP_SCharacter
+[2019.06.11-23.53.09:768][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a3717eed0, Size=80, Default__BP_SCharacter_C Function /Game/Blueprints/BP_SCharacter.BP_SCharacter_C:ExecuteUbergraph_BP_SCharacter
+[2019.06.11-23.53.10:054][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a3b383700, Size=248, Default__BP_Target_C Function /Game/Blueprints/BP_Target.BP_Target_C:ExecuteUbergraph_BP_Target
+[2019.06.11-23.53.10:055][  0]LogLinker: Warning: Unable to load USHealth_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/Blueprints/BP_Target.BP_Target_C because its class does not exist
+[2019.06.11-23.53.10:055][  0]LogBlueprint: Warning: [Compiler BP_Target] Component class is not set for 'USHealth' - this component will not be instanced, and additional warnings or errors may occur when compiling Blueprint 'BP_Target'.
+[2019.06.11-23.53.10:056][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a3b383700, Size=248
+[2019.06.11-23.53.10:056][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a3b383700, Size=248, Default__BP_Target_C Function /Engine/Transient.REINST_BP_Target_C_9:ExecuteUbergraph_BP_Target
+[2019.06.11-23.53.10:058][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a3b380400, Size=248, Default__BP_Target_C Function /Game/Blueprints/BP_Target.BP_Target_C:ExecuteUbergraph_BP_Target
+[2019.06.11-23.53.10:059][  0]LogBlueprint: Warning: [Compiler BP_Target] [0015.79] Compile of BP_Target successful, but with 1 Warning(s) [in 3 ms] (/Game/Blueprints/BP_Target.BP_Target)
+[2019.06.11-23.53.10:338][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [12.066800ms] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.06.11-23.53.10:366][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [21.409100ms] /Game/Weapons/SK_Rifle.SK_Rifle
+[2019.06.11-23.53.10:447][  0]LogAIModule: Creating AISystem for world MainMap
+[2019.06.11-23.53.10:472][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.11-23.53.10:482][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a5d9ca1a0, Size=88
+[2019.06.11-23.53.10:482][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a3f9a8a90, Size=80
+[2019.06.11-23.53.10:482][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a3b383700, Size=248
+[2019.06.11-23.53.10:483][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.11-23.53.10:543][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.161ms to complete.
+[2019.06.11-23.53.10:543][  0]LogFileHelpers: Loading map 'MainMap' took 2.232
+[2019.06.11-23.53.10:784][  0]LogCollectionManager: Loaded 0 collections in 0.002344 seconds
+[2019.06.11-23.53.10:846][  0]LogFileCache: Scanning file cache for directory 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Collections/' took 0.01s
+[2019.06.11-23.53.10:846][  0]LogFileCache: Scanning file cache for directory 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Developers/ZHENGYANG/Collections/' took 0.01s
+[2019.06.11-23.53.10:846][  0]LogFileCache: Scanning file cache for directory 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Collections/' took 0.01s
+[2019.06.11-23.53.10:846][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.11-23.53.10:858][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2456 classes and 562 folders.
+[2019.06.11-23.53.10:872][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2019.06.11-23.53.11:025][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.06.11-23.53.11:042][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2019.06.11-23.53.11:103][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.11-23.53.11:105][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.11-23.53.11:114][  0]LogSlate: Took 0.001452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.11-23.53.11:235][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2019.06.11-23.53.11:349][  0]LogSlate: Took 0.001474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.11-23.53.11:438][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.06.11-23.53.11:438][  0]LogLoad: (Engine Initialization) Total time: 17.17 seconds
+[2019.06.11-23.53.11:438][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.11-23.53.11:500][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.11-23.53.11:552][  1]LogAssetRegistry: Asset discovery search completed in 9.4759 seconds
+[2019.06.11-23.53.11:554][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.11-23.53.11:554][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2019.06.11-23.53.12:467][ 49]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.11-23.54.53:306][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.11-23.54.54:728][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.11-23.54.54:794][186]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.11-23.54.54:807][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.11-23.54.54:810][186]PIE: New page: PIE session: MainMap (12 Jun 2019 01:54:54)
+[2019.06.11-23.54.54:810][186]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.11-23.54.54:813][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003505s)
+[2019.06.11-23.54.54:814][186]LogAIModule: Creating AISystem for world MainMap
+[2019.06.11-23.54.54:814][186]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2019.06.11-23.54.54:815][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.004925s)
+[2019.06.11-23.54.54:831][186]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.11-23.54.54:902][186]LogInit: FAudioDevice initialized.
+[2019.06.11-23.54.54:981][186]LogLoad: Game class is 'GameModeBase'
+[2019.06.11-23.54.54:985][186]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-00.54.54
+[2019.06.11-23.54.54:989][186]LogWorld: Bringing up level for play took: 0.005632
+[2019.06.11-23.54.54:995][186]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2019.06.11-23.54.54:999][186]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.75
+[2019.06.11-23.54.58:064][364]LogTemp: Warning: Health Changed:80.0
+[2019.06.11-23.54.58:064][364]LogTemp: Warning: Health Changed:80.0
+[2019.06.11-23.54.58:164][370]LogTemp: Warning: Health Changed:60.0
+[2019.06.11-23.54.58:164][370]LogTemp: Warning: Health Changed:60.0
+[2019.06.11-23.54.58:263][376]LogTemp: Warning: Health Changed:40.0
+[2019.06.11-23.54.58:263][376]LogTemp: Warning: Health Changed:40.0
+[2019.06.11-23.54.59:596][456]LogTemp: Warning: Health Changed:20.0
+[2019.06.11-23.54.59:596][456]LogTemp: Warning: Health Changed:20.0
+[2019.06.11-23.54.59:680][461]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.54.59:680][461]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.54.59:780][467]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.54.59:780][467]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.54.59:880][473]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.54.59:880][473]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.54.59:980][479]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.54.59:980][479]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.00:080][485]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.00:080][485]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.00:180][491]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.00:180][491]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.00:280][497]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.00:280][497]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.00:381][503]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.00:381][503]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.02:181][611]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.02:181][611]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.10:714][122]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.10:715][122]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.41:625][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.11-23.55.41:645][395]LogSlate: Took 0.017003 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.06.11-23.55.46:436][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.06.11-23.55.47:414][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.11-23.55.47:496][733]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.11-23.55.47:508][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.11-23.55.47:508][733]PIE: New page: PIE session: MainMap (12 Jun 2019 01:55:47)
+[2019.06.11-23.55.47:508][733]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.11-23.55.47:511][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002284s)
+[2019.06.11-23.55.47:512][733]LogAIModule: Creating AISystem for world MainMap
+[2019.06.11-23.55.47:512][733]LogPlayLevel: PIE: World Init took: (0.001416s)
+[2019.06.11-23.55.47:513][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.004345s)
+[2019.06.11-23.55.47:567][733]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.11-23.55.47:637][733]LogInit: FAudioDevice initialized.
+[2019.06.11-23.55.47:673][733]LogLoad: Game class is 'GameModeBase'
+[2019.06.11-23.55.47:675][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-00.55.47
+[2019.06.11-23.55.47:676][733]LogWorld: Bringing up level for play took: 0.002744
+[2019.06.11-23.55.47:678][733]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap -0.571
+[2019.06.11-23.55.49:013][809]LogTemp: Warning: Health Changed:80.0
+[2019.06.11-23.55.49:013][809]LogTemp: Warning: Health Changed:80.0
+[2019.06.11-23.55.49:447][835]LogTemp: Warning: Health Changed:60.0
+[2019.06.11-23.55.49:447][835]LogTemp: Warning: Health Changed:60.0
+[2019.06.11-23.55.49:813][857]LogTemp: Warning: Health Changed:40.0
+[2019.06.11-23.55.49:813][857]LogTemp: Warning: Health Changed:40.0
+[2019.06.11-23.55.49:897][862]LogTemp: Warning: Health Changed:20.0
+[2019.06.11-23.55.49:897][862]LogTemp: Warning: Health Changed:20.0
+[2019.06.11-23.55.50:096][874]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:097][874]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:296][886]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:296][886]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:496][898]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:497][898]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:696][910]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:696][910]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:880][921]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.50:880][921]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.51:046][931]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.51:046][931]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.51:213][941]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.51:213][941]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.51:396][952]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.51:396][952]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.51:580][963]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.51:580][963]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.54:081][113]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.54:081][113]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.54:430][134]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.54:431][134]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.54:597][144]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.54:597][144]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.54:780][155]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.54:780][155]LogTemp: Warning: Health Changed:0.0
+[2019.06.11-23.55.57:598][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-00.00.22:996][599]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2019.06.12-00.00.23:291][599]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a86aee5f8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.06.12-00.00.23:292][599]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a86aee5f0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.06.12-00.00.23:785][599]LogSlate: Took 0.001574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.12-00.00.23:891][600]LogSlate: Took 0.001796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.12-00.00.51:092][206]LogSlate: Window 'BP_SCharacter' being destroyed
+[2019.06.12-00.01.20:567][967]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.06.12-00.01.20:861][967]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.12-00.01.20:868][967]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2019.06.12-00.01.20:917][967]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.12-00.01.21:252][967]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2019.06.12-00.01.21:264][968]LogRenderer: Reallocating scene render targets to support 964x672 Format 10 NumSamples 1 (Frame:1).
+[2019.06.12-00.02.51:716][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.06.12-00.02.51:981][925]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2019.06.12-00.08.06:937][419]Candidate modules for hot reload:
+[2019.06.12-00.08.06:937][419]  Shooter
+[2019.06.12-00.08.06:937][419]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter -ModuleWithSuffix=Shooter,190 Win64 Development -editorrecompile -canskiplink "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" ]
+[2019.06.12-00.08.06:944][419]Warning: Starting HotReload took  0.0s.
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: New page: Compilation - 12 Jun 2019 02:08:30
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: Parsing headers for ShooterEditor
+[2019.06.12-00.08.30:621][840]CompilerResultsLog:   Running UnrealHeaderTool "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Shooter.uproject" "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: Reflection code generated for ShooterEditor in 12.4133472 seconds
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: SCharacter.gen.cpp
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: Shooter.init.gen.cpp
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: SCharacter.cpp
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: [4/5] Link UE4Editor-Shooter-190.dll
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: [5/5] Link UE4Editor-Shooter-190.lib
+[2019.06.12-00.08.30:621][840]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-190.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-190.exp
+[2019.06.12-00.08.30:621][840]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-190.suppressed.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-190.suppressed.exp
+[2019.06.12-00.08.30:621][840]CompilerResultsLog: Total build time: 22.89 seconds (Local executor: 7.96 seconds)
+[2019.06.12-00.08.30:621][840]LogMainFrame: MainFrame: Module compiling took 23.691 seconds
+[2019.06.12-00.08.30:656][840]LogClass: Could not find existing class SCharacter in package /Script/Shooter for HotReload, assuming new class
+[2019.06.12-00.08.30:656][840]LogClass: Function OnHealthChanged is new.
+[2019.06.12-00.08.30:664][840]LogHotReload: Re-instancing SCharacter after hot-reload.
+[2019.06.12-00.08.30:671][840]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a3717eed0, Size=80
+[2019.06.12-00.08.30:671][840]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a0a8618a0, Size=80, Default__BP_SCharacter_C Function /Engine/Transient.REINST_BP_SCharacter_C_25:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.08.30:673][840]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a49fa9620, Size=80, Default__BP_SCharacter_C Function /Game/Blueprints/BP_SCharacter.BP_SCharacter_C:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.08.31:187][840]LogContentBrowser: Native class hierarchy updated for 'Shooter' in 0.0009 seconds. Added 4 classes and 4 folders.
+[2019.06.12-00.08.31:189][840]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.06.12-00.08.31:555][840]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2458 classes and 566 folders.
+[2019.06.12-00.08.31:560][840]Display: HotReload took 24.6s.
+[2019.06.12-00.10.46:614][865]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMap' took 0.045
+[2019.06.12-00.10.46:638][865]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint] ([1] browsable assets)...
+[2019.06.12-00.10.46:654][865]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint]
+[2019.06.12-00.10.46:654][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint]
+[2019.06.12-00.10.46:765][865]LogSavePackage: Save=106.42ms
+[2019.06.12-00.10.46:765][865]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/UE4ASP_HeroTPP_AnimBlueprint_AutEFD905DC41AC0DCBC264A9B8B281C6E1.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint_Auto1.uasset'
+[2019.06.12-00.10.46:767][865]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint_Auto1.uasset
+[2019.06.12-00.10.46:767][865]LogFileHelpers: Auto-saving content packages took 0.152
+[2019.06.12-00.15.16:175][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" SILENT=true
+[2019.06.12-00.15.16:294][557]LogSavePackage: Save=117.13ms
+[2019.06.12-00.15.16:294][557]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/UE4ASP_HeroTPP_AnimBlueprintF6BAC6A94F5FA617DE355A92AC56C853.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.06.12-00.15.16:394][557]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2019.06.12-00.15.17:713][635]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.15.17:748][635]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a37978940, Size=88
+[2019.06.12-00.15.17:748][635]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a8eaca860, Size=88, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_2:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.15.17:760][635]LogBlueprint: Error: [Compiler UE4ASP_HeroTPP_AnimBlueprint] This blueprint (self) is not a SCharacter, therefore ' Target ' must have a connection.
+[2019.06.12-00.15.17:760][635]LogBlueprint: Error: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Variable node  Get bDied  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.06.12-00.15.17:761][635]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a76c93fa0, Size=96, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.15.17:895][635]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] [1343.62] Compile of UE4ASP_HeroTPP_AnimBlueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 182 ms] (/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint)
+[2019.06.12-00.17.28:022][434]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.17.28:056][434]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a76c93fa0, Size=96
+[2019.06.12-00.17.28:056][434]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016ab867dea0, Size=96, UE4ASP_HeroTPP_AnimBlueprint_C_14 Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_4:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.17.28:068][434]LogBlueprint: Error: [Compiler UE4ASP_HeroTPP_AnimBlueprint] This blueprint (self) is not a SCharacter, therefore ' Target ' must have a connection.
+[2019.06.12-00.17.28:068][434]LogBlueprint: Error: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Variable node  Get bDied  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.06.12-00.17.28:069][434]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a8f69c340, Size=96, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.17.28:183][434]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a8eaca860, Size=88
+[2019.06.12-00.17.28:197][434]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] [1473.93] Compile of UE4ASP_HeroTPP_AnimBlueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 174 ms] (/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint)
+[2019.06.12-00.18.11:268][844]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.18.11:302][844]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a8f69c340, Size=96
+[2019.06.12-00.18.11:302][844]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016ac273c5e0, Size=96, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_6:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.18.11:315][844]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a86192e80, Size=104, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.18.11:430][844]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016ab867dea0, Size=96
+[2019.06.12-00.18.11:484][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" SILENT=true
+[2019.06.12-00.18.11:600][844]LogSavePackage: Save=112.12ms
+[2019.06.12-00.18.11:600][844]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/UE4ASP_HeroTPP_AnimBlueprintD221126C4C6C09093757F6A563479C88.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.06.12-00.18.11:602][844]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2019.06.12-00.20.10:274][244]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.20.10:312][244]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a86192e80, Size=104
+[2019.06.12-00.20.10:312][244]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a4dea5440, Size=104, UE4ASP_HeroTPP_AnimBlueprint_C_25 Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_8:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.20.10:324][244]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016ac541fb80, Size=96, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.20.10:440][244]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016ac273c5e0, Size=96
+[2019.06.12-00.20.10:495][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" SILENT=true
+[2019.06.12-00.20.10:606][244]LogSavePackage: Save=107.39ms
+[2019.06.12-00.20.10:606][244]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/UE4ASP_HeroTPP_AnimBlueprint933B31074FDBF65C9DCD7E852A0AF711.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.06.12-00.20.10:609][244]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2019.06.12-00.20.35:073][709]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.20.35:106][709]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016ac541fb80, Size=96
+[2019.06.12-00.20.35:107][709]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a7ff74dc0, Size=96, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_10:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.20.35:118][709]LogBlueprint: Error: [Compiler UE4ASP_HeroTPP_AnimBlueprint] This blueprint (self) is not a SCharacter, therefore ' Target ' must have a connection.
+[2019.06.12-00.20.35:119][709]LogBlueprint: Error: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Variable node  Get bDied  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.06.12-00.20.35:120][709]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016ac544dfc0, Size=96, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.20.35:233][709]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a4dea5440, Size=104
+[2019.06.12-00.20.35:246][709]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] [1660.97] Compile of UE4ASP_HeroTPP_AnimBlueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 173 ms] (/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint)
+[2019.06.12-00.21.04:976][490]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.21.05:015][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016ac544dfc0, Size=96
+[2019.06.12-00.21.05:015][490]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016ac26a3ee0, Size=96, UE4ASP_HeroTPP_AnimBlueprint_C_36 Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_12:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.21.05:030][490]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a85fe66a0, Size=112, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.21.05:143][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a7ff74dc0, Size=96
+[2019.06.12-00.21.05:196][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" SILENT=true
+[2019.06.12-00.21.05:314][490]LogSavePackage: Save=115.13ms
+[2019.06.12-00.21.05:314][490]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/UE4ASP_HeroTPP_AnimBlueprintD2B96088410DABADFBBE80BA491AE76B.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.06.12-00.21.05:317][490]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2019.06.12-00.21.16:977][187]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.21.17:019][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a85fe66a0, Size=112
+[2019.06.12-00.21.17:019][187]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a7fdc06b0, Size=112, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_14:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.21.17:033][187]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a4b715750, Size=104, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2019.06.12-00.21.17:151][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016ac26a3ee0, Size=96
+[2019.06.12-00.21.17:205][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" SILENT=true
+[2019.06.12-00.21.17:319][187]LogSavePackage: Save=110.41ms
+[2019.06.12-00.21.17:320][187]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/UE4ASP_HeroTPP_AnimBlueprint301556D64841103EB3B2F984B51B7C4E.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.06.12-00.21.17:322][187]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2019.06.12-00.22.09:685][274]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a94460b00, Size=4, Default__SKEL_BP_SCharacter_C Function /Game/Blueprints/BP_SCharacter.SKEL_BP_SCharacter_C:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.22.13:002][471]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a94460b00, Size=4
+[2019.06.12-00.22.13:002][471]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a94460b00, Size=4, Default__SKEL_BP_SCharacter_C Function /Engine/Transient.REINST_SKEL_BP_SCharacter_C_43:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.22.13:003][471]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a94463fd0, Size=4, Default__SKEL_BP_SCharacter_C Function /Game/Blueprints/BP_SCharacter.SKEL_BP_SCharacter_C:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.22.14:281][547]BlueprintLog: New page: Compile BP_SCharacter
+[2019.06.12-00.22.14:283][547]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a94463fd0, Size=4
+[2019.06.12-00.22.14:283][547]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a94463fd0, Size=4, Default__SKEL_BP_SCharacter_C Function /Engine/Transient.REINST_SKEL_BP_SCharacter_C_45:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.22.14:284][547]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a49fa9620, Size=80
+[2019.06.12-00.22.14:284][547]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a4df8a250, Size=80, BP_SCharacter_C_12 Function /Engine/Transient.REINST_BP_SCharacter_C_47:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.22.14:285][547]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016a0f160600, Size=16, Default__BP_SCharacter_C Function /Game/Blueprints/BP_SCharacter.BP_SCharacter_C:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.22.14:844][547]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a7fdc06b0, Size=112
+[2019.06.12-00.22.14:844][547]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a94463fd0, Size=4
+[2019.06.12-00.22.14:904][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SCharacter" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset" SILENT=true
+[2019.06.12-00.22.14:933][547]LogSavePackage: Save=25.04ms
+[2019.06.12-00.22.14:933][547]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_SCharacter82391C6E4BD4F87585430481CC82CB93.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset'
+[2019.06.12-00.22.14:936][547]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset
+[2019.06.12-00.22.40:533][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.06.12-00.22.40:572][749]LogSavePackage: Save=35.63ms
+[2019.06.12-00.22.40:573][749]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/MainMap_Auto2FE6B59114CE55721CAF72DA06CE42A8C.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto2.umap'
+[2019.06.12-00.22.40:664][749]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto2.umap
+[2019.06.12-00.22.40:676][749]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMap' took 0.167
+[2019.06.12-00.22.40:676][749]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.167
+[2019.06.12-00.23.20:340][120]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.06.12-00.23.24:288][356]BlueprintLog: New page: Compile BP_SCharacter
+[2019.06.12-00.23.24:291][356]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016a0f160600, Size=16
+[2019.06.12-00.23.24:291][356]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016ac56aaae0, Size=16, BP_SCharacter_C_14 Function /Engine/Transient.REINST_BP_SCharacter_C_51:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.23.24:292][356]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016ac56abc90, Size=16, Default__BP_SCharacter_C Function /Game/Blueprints/BP_SCharacter.BP_SCharacter_C:ExecuteUbergraph_BP_SCharacter
+[2019.06.12-00.23.25:010][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SCharacter" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset" SILENT=true
+[2019.06.12-00.23.25:033][356]LogSavePackage: Save=20.88ms
+[2019.06.12-00.23.25:033][356]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_SCharacter038667D74CA880D293C6FAA170C046D9.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset'
+[2019.06.12-00.23.25:036][356]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset
+[2019.06.12-00.23.26:192][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SCharacter" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset" SILENT=true
+[2019.06.12-00.23.26:209][421]LogSavePackage: Save=13.31ms
+[2019.06.12-00.23.26:209][421]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_SCharacter46D761504C16941ED9A4AFAB2DC50F70.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset'
+[2019.06.12-00.23.26:210][421]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_SCharacter.uasset
+[2019.06.12-00.23.54:277][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-00.23.54:294][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-00.23.54:294][ 79]PIE: New page: PIE session: MainMap (12 Jun 2019 02:23:54)
+[2019.06.12-00.23.54:294][ 79]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-00.23.54:298][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003272s)
+[2019.06.12-00.23.54:298][ 79]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-00.23.54:299][ 79]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2019.06.12-00.23.54:299][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.004309s)
+[2019.06.12-00.23.54:330][ 79]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-00.23.54:406][ 79]LogInit: FAudioDevice initialized.
+[2019.06.12-00.23.54:440][ 79]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-00.23.54:443][ 79]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-01.23.54
+[2019.06.12-00.23.54:444][ 79]LogWorld: Bringing up level for play took: 0.001996
+[2019.06.12-00.23.54:445][ 79]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.196
+[2019.06.12-00.23.57:079][235]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-00.23.57:162][240]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-00.23.57:263][246]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-00.23.57:362][252]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-00.23.57:462][258]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.23.57:562][264]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.23.57:663][270]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.23.57:762][276]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.23.59:613][387]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.23.59:696][392]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.23.59:796][398]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.00:096][416]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.00:179][421]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.00:279][427]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.00:946][467]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.01:030][472]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.03:697][632]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.03:780][637]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.03:881][643]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.08:164][900]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.08:247][905]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.08:347][911]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.08:731][934]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.08:815][939]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.08:914][945]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.09:014][951]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.24.11:942][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-00.24.41:595][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.06.12-00.24.41:615][739]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2019.06.12-00.24.42:167][739]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.12-00.28.36:527][709]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-00.28.36:538][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-00.28.36:539][709]PIE: New page: PIE session: MainMap (12 Jun 2019 02:28:36)
+[2019.06.12-00.28.36:539][709]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-00.28.36:541][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002527s)
+[2019.06.12-00.28.36:543][709]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-00.28.36:543][709]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2019.06.12-00.28.36:543][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.004247s)
+[2019.06.12-00.28.36:583][709]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-00.28.36:660][709]LogInit: FAudioDevice initialized.
+[2019.06.12-00.28.36:695][709]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-00.28.36:698][709]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-01.28.36
+[2019.06.12-00.28.36:699][709]LogWorld: Bringing up level for play took: 0.002319
+[2019.06.12-00.28.36:700][709]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.451
+[2019.06.12-00.28.37:483][754]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-00.28.37:567][759]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-00.28.37:667][765]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-00.28.37:767][771]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-00.28.37:867][777]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.37:967][783]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.38:067][789]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.38:167][795]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.40:251][920]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.40:334][925]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.40:551][938]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.40:634][943]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.40:734][949]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.28.40:834][955]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.29.37:722][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-00.29.50:908][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-00.29.50:992][ 34]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-00.29.51:003][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-00.29.51:003][ 34]PIE: New page: PIE session: MainMap (12 Jun 2019 02:29:51)
+[2019.06.12-00.29.51:003][ 34]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-00.29.51:006][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002674s)
+[2019.06.12-00.29.51:007][ 34]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-00.29.51:007][ 34]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2019.06.12-00.29.51:007][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.003929s)
+[2019.06.12-00.29.51:039][ 34]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-00.29.51:113][ 34]LogInit: FAudioDevice initialized.
+[2019.06.12-00.29.51:150][ 34]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-00.29.51:153][ 34]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-01.29.51
+[2019.06.12-00.29.51:154][ 34]LogWorld: Bringing up level for play took: 0.002336
+[2019.06.12-00.29.51:156][ 34]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.907
+[2019.06.12-00.29.53:078][147]LogTemp: Warning: Health Changed:99.0
+[2019.06.12-00.29.54:078][207]LogTemp: Warning: Health Changed:98.0
+[2019.06.12-00.29.56:289][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-00.30.06:290][934]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-00.30.06:302][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-00.30.06:302][934]PIE: New page: PIE session: MainMap (12 Jun 2019 02:30:06)
+[2019.06.12-00.30.06:302][934]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-00.30.06:305][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002654s)
+[2019.06.12-00.30.06:306][934]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-00.30.06:306][934]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2019.06.12-00.30.06:306][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.003920s)
+[2019.06.12-00.30.06:338][934]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-00.30.06:414][934]LogInit: FAudioDevice initialized.
+[2019.06.12-00.30.06:451][934]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-00.30.06:454][934]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-01.30.06
+[2019.06.12-00.30.06:454][934]LogWorld: Bringing up level for play took: 0.002858
+[2019.06.12-00.30.06:456][934]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.207
+[2019.06.12-00.30.08:410][ 49]LogTemp: Warning: Health Changed:50.0
+[2019.06.12-00.30.09:410][109]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.30.14:766][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-00.30.19:246][675]LogRenderer: Reallocating scene render targets to support 968x672 Format 10 NumSamples 1 (Frame:15606).
+[2019.06.12-00.30.19:290][676]LogRenderer: Reallocating scene render targets to support 980x672 Format 10 NumSamples 1 (Frame:15608).
+[2019.06.12-00.30.19:340][677]LogRenderer: Reallocating scene render targets to support 1020x672 Format 10 NumSamples 1 (Frame:15610).
+[2019.06.12-00.30.19:387][678]LogRenderer: Reallocating scene render targets to support 1060x672 Format 10 NumSamples 1 (Frame:15612).
+[2019.06.12-00.30.19:440][679]LogRenderer: Reallocating scene render targets to support 1064x672 Format 10 NumSamples 1 (Frame:15614).
+[2019.06.12-00.30.25:432][  0]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-00.30.25:447][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-00.30.25:447][  0]PIE: New page: PIE session: MainMap (12 Jun 2019 02:30:25)
+[2019.06.12-00.30.25:447][  0]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-00.30.25:450][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002495s)
+[2019.06.12-00.30.25:451][  0]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-00.30.25:451][  0]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2019.06.12-00.30.25:451][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.004163s)
+[2019.06.12-00.30.25:504][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-00.30.25:580][  0]LogInit: FAudioDevice initialized.
+[2019.06.12-00.30.25:612][  0]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-00.30.25:615][  0]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-01.30.25
+[2019.06.12-00.30.25:616][  0]LogWorld: Bringing up level for play took: 0.002285
+[2019.06.12-00.30.25:617][  0]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap -0.633
+[2019.06.12-00.30.30:345][280]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-00.30.30:428][285]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-00.30.30:528][291]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-00.30.30:628][297]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-00.30.30:728][303]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.30.30:829][309]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.30.30:928][315]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.30.31:029][321]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.30.31:128][327]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.32.12:555][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-00.32.12:635][845]Candidate modules for hot reload:
+[2019.06.12-00.32.12:635][845]  Shooter
+[2019.06.12-00.32.12:635][845]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter -ModuleWithSuffix=Shooter,1815 Win64 Development -editorrecompile -canskiplink "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" ]
+[2019.06.12-00.32.12:643][845]Warning: Starting HotReload took  0.0s.
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog: New page: Compilation - 12 Jun 2019 02:32:17
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog: SCharacter.cpp
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog: [2/3] Link UE4Editor-Shooter-1815.dll
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog: [3/3] Link UE4Editor-Shooter-1815.lib
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-1815.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-1815.exp
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-1815.suppressed.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-1815.suppressed.exp
+[2019.06.12-00.32.17:366][ 34]CompilerResultsLog: Total build time: 3.93 seconds (Local executor: 2.83 seconds)
+[2019.06.12-00.32.17:367][ 34]LogMainFrame: MainFrame: Module compiling took 4.736 seconds
+[2019.06.12-00.32.17:401][ 34]LogContentBrowser: Native class hierarchy updated for 'Shooter' in 0.0010 seconds. Added 4 classes and 4 folders.
+[2019.06.12-00.32.17:403][ 34]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2019.06.12-00.32.17:724][ 34]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2458 classes and 566 folders.
+[2019.06.12-00.32.17:724][ 34]Display: HotReload took  5.1s.
+[2019.06.12-00.32.44:795][194]Candidate modules for hot reload:
+[2019.06.12-00.32.44:795][194]  Shooter
+[2019.06.12-00.32.44:796][194]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter -ModuleWithSuffix=Shooter,5346 Win64 Development -editorrecompile -canskiplink "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" ]
+[2019.06.12-00.32.44:803][194]Warning: Starting HotReload took  0.0s.
+[2019.06.12-00.32.48:622][424]CompilerResultsLog: New page: Compilation - 12 Jun 2019 02:32:48
+[2019.06.12-00.32.48:623][424]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.06.12-00.32.48:623][424]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.12-00.32.48:623][424]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.06.12-00.32.48:623][424]CompilerResultsLog: SCharacter.cpp
+[2019.06.12-00.32.48:623][424]CompilerResultsLog: [2/3] Link UE4Editor-Shooter-5346.dll
+[2019.06.12-00.32.48:623][424]CompilerResultsLog: [3/3] Link UE4Editor-Shooter-5346.lib
+[2019.06.12-00.32.48:623][424]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-5346.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-5346.exp
+[2019.06.12-00.32.48:623][424]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-5346.suppressed.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-5346.suppressed.exp
+[2019.06.12-00.32.48:623][424]CompilerResultsLog: Total build time: 3.56 seconds (Local executor: 2.43 seconds)
+[2019.06.12-00.32.48:623][424]LogMainFrame: MainFrame: Module compiling took 3.833 seconds
+[2019.06.12-00.32.48:688][424]LogContentBrowser: Native class hierarchy updated for 'Shooter' in 0.0009 seconds. Added 4 classes and 4 folders.
+[2019.06.12-00.32.48:690][424]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2019.06.12-00.32.49:000][424]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2458 classes and 566 folders.
+[2019.06.12-00.32.49:000][424]Display: HotReload took  4.2s.
+[2019.06.12-00.33.02:786][251]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-00.33.02:798][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-00.33.02:798][251]PIE: New page: PIE session: MainMap (12 Jun 2019 02:33:02)
+[2019.06.12-00.33.02:798][251]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-00.33.02:801][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002793s)
+[2019.06.12-00.33.02:802][251]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-00.33.02:802][251]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2019.06.12-00.33.02:802][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.004140s)
+[2019.06.12-00.33.02:858][251]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-00.33.02:930][251]LogInit: FAudioDevice initialized.
+[2019.06.12-00.33.02:962][251]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-00.33.02:965][251]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-01.33.02
+[2019.06.12-00.33.02:966][251]LogWorld: Bringing up level for play took: 0.002561
+[2019.06.12-00.33.02:968][251]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.718
+[2019.06.12-00.33.04:366][333]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-00.33.04:450][338]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-00.33.04:551][344]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-00.33.04:649][350]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-00.33.04:750][356]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.33.04:850][362]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.33.04:949][368]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.33.05:049][374]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.33.13:050][854]LogTemp: Warning: Health Changed:50.0
+[2019.06.12-00.33.14:050][914]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-00.33.48:389][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-00.33.53:177][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.06.12-00.33.53:218][925]LogSavePackage: Save=36.37ms
+[2019.06.12-00.33.53:218][925]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/MainMap_Auto3FA1BC8934CC8E17C8BE747A6720BB25E.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto3.umap'
+[2019.06.12-00.33.53:219][925]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto3.umap
+[2019.06.12-00.33.53:221][925]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMap' took 0.060
+[2019.06.12-00.33.53:221][925]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.060
+[2019.06.12-00.53.58:562][578]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.12-00.53.58:563][578]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2019.06.12-01.09.04:517][572]Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter Win64 Development -editorrecompile "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" -invalidatemakefilesonly
+[2019.06.12-01.09.05:330][572]Invalidating makefiles only in this run.
+[2019.06.12-01.09.05:455][572]Candidate modules for hot reload:
+[2019.06.12-01.09.05:455][572]  Shooter
+[2019.06.12-01.09.05:455][572]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter -ModuleWithSuffix=Shooter,2549 Win64 Development -editorrecompile -canskiplink "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" ]
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: New page: Compilation - 12 Jun 2019 03:09:25
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: Creating makefile for hot reloading Shooter (no existing makefile)
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: Parsing headers for ShooterEditor
+[2019.06.12-01.09.25:435][572]CompilerResultsLog:   Running UnrealHeaderTool "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Shooter.uproject" "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: Reflection code generated for ShooterEditor in 8.5073297 seconds
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: ExplosiveBarrel.gen.cpp
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: Shooter.init.gen.cpp
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: SCharacter.cpp
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: ExplosiveBarrel.cpp
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: [5/6] Link UE4Editor-Shooter-2549.dll
+[2019.06.12-01.09.25:435][572]CompilerResultsLog: [6/6] Link UE4Editor-Shooter-2549.lib
+[2019.06.12-01.09.25:435][572]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-2549.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-2549.exp
+[2019.06.12-01.09.25:436][572]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-2549.suppressed.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-2549.suppressed.exp
+[2019.06.12-01.09.25:436][572]CompilerResultsLog: Total build time: 19.27 seconds (Local executor: 2.02 seconds)
+[2019.06.12-01.09.25:436][572]LogMainFrame: MainFrame: Module compiling took 19.986 seconds
+[2019.06.12-01.09.25:463][572]LogClass: Could not find existing class ExplosiveBarrel in package /Script/Shooter for HotReload, assuming new class
+[2019.06.12-01.09.25:473][572]LogContentBrowser: Native class hierarchy updated for 'Shooter' in 0.0009 seconds. Added 5 classes and 4 folders.
+[2019.06.12-01.09.25:476][572]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2019.06.12-01.09.25:776][572]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2459 classes and 566 folders.
+[2019.06.12-01.09.25:777][572]Display: HotReload took 20.3s.
+[2019.06.12-01.09.25:780][572]Warning: HotReload operation took 20.3s.
+[2019.06.12-01.09.25:983][572]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.06.12-01.09.25:990][572]LogHotReload: New module detected: UE4Editor-Shooter-2549.dll
+[2019.06.12-01.09.26:031][573]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.12-01.09.26:143][573]LogContentBrowser: Native class hierarchy updated for 'Shooter' in 0.0014 seconds. Added 5 classes and 4 folders.
+[2019.06.12-01.09.26:145][573]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.12-01.09.26:438][573]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2459 classes and 566 folders.
+[2019.06.12-01.09.26:444][573]Display: HotReload took  0.4s.
+[2019.06.12-01.31.33:978][820]Candidate modules for hot reload:
+[2019.06.12-01.31.33:978][820]  Shooter
+[2019.06.12-01.31.33:978][820]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter -ModuleWithSuffix=Shooter,9032 Win64 Development -editorrecompile -canskiplink "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" ]
+[2019.06.12-01.31.33:987][820]Warning: Starting HotReload took  0.0s.
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: New page: Compilation - 12 Jun 2019 03:31:47
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: Parsing headers for ShooterEditor
+[2019.06.12-01.31.47:143][964]CompilerResultsLog:   Running UnrealHeaderTool "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Shooter.uproject" "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: Reflection code generated for ShooterEditor in 9.1871618 seconds
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: ExplosiveBarrel.gen.cpp
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: Shooter.init.gen.cpp
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: ExplosiveBarrel.cpp
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: [4/5] Link UE4Editor-Shooter-9032.dll
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: [5/5] Link UE4Editor-Shooter-9032.lib
+[2019.06.12-01.31.47:143][964]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-9032.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-9032.exp
+[2019.06.12-01.31.47:143][964]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-9032.suppressed.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-9032.suppressed.exp
+[2019.06.12-01.31.47:143][964]CompilerResultsLog: Total build time: 12.31 seconds (Local executor: 1.83 seconds)
+[2019.06.12-01.31.47:144][964]LogMainFrame: MainFrame: Module compiling took 13.170 seconds
+[2019.06.12-01.31.47:207][964]LogClass: Could not find existing class ExplosiveBarrel in package /Script/Shooter for HotReload, assuming new class
+[2019.06.12-01.31.47:220][964]LogHotReload: Re-instancing ExplosiveBarrel after hot-reload.
+[2019.06.12-01.31.47:304][964]LogContentBrowser: Native class hierarchy updated for 'Shooter' in 0.0009 seconds. Added 5 classes and 4 folders.
+[2019.06.12-01.31.47:307][964]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2019.06.12-01.31.47:643][964]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2459 classes and 566 folders.
+[2019.06.12-01.31.47:643][964]Display: HotReload took 13.7s.
+[2019.06.12-01.32.07:012][798]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.06.12-01.32.34:960][465]LogStaticMesh: Building static mesh SM_ExplosiveBarrel...
+[2019.06.12-01.32.34:980][465]LogStaticMesh: Built static mesh [0.02s] /Game/ExplosiveBarrel/SM_ExplosiveBarrel.SM_ExplosiveBarrel
+[2019.06.12-01.32.35:229][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMap' took 0.053
+[2019.06.12-01.32.35:232][472]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_ExplosiveBarrel] ([1] browsable assets)...
+[2019.06.12-01.32.35:243][472]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel]
+[2019.06.12-01.32.35:243][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ExplosiveBarrel]
+[2019.06.12-01.32.35:260][472]LogSavePackage: Save=14.60ms
+[2019.06.12-01.32.35:260][472]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_ExplosiveBarrel_Auto4694C5CB6410B1948ADFF3A99A36FB82E.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Blueprints/BP_ExplosiveBarrel_Auto4.uasset'
+[2019.06.12-01.32.35:261][472]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Blueprints/BP_ExplosiveBarrel_Auto4.uasset
+[2019.06.12-01.32.35:261][472]LogFileHelpers: Auto-saving content packages took 0.031
+[2019.06.12-01.32.55:020][914]LogMaterial: Missing cached shader map for material M_ExplosiveBarrel, compiling. 
+[2019.06.12-01.32.55:078][914]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.06.12-01.32.55:078][914]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.06.12-01.32.55:078][914]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.06.12-01.33.15:493][493]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.12-01.33.16:325][543]BlueprintLog: New page: Compile BP_ExplosiveBarrel
+[2019.06.12-01.33.16:693][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2019.06.12-01.33.16:788][543]LogSavePackage: Save=14.88ms
+[2019.06.12-01.33.16:788][543]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_ExplosiveBarrel818CCEE94259AB13133B7989A810D614.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2019.06.12-01.33.16:791][543]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset
+[2019.06.12-01.33.39:814][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-01.34.04:719][342]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2019.06.12-01.34.11:777][739]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2019.06.12-01.34.53:881][646]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
+[2019.06.12-01.34.53:900][646]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2019.06.12-01.34.53:965][646]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.06.12-01.34.53:965][646]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.06.12-01.34.53:965][646]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.06.12-01.34.53:966][646]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.06.12-01.34.53:966][646]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2019.06.12-01.34.53:989][646]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2019.06.12-01.34.56:336][759]LogShaderCompilers: Display: Shaders left to compile 147
+[2019.06.12-01.34.57:312][808]LogShaderCompilers: Display: Shaders left to compile 137
+[2019.06.12-01.34.57:658][825]LogShaderCompilers: Display: Shaders left to compile 127
+[2019.06.12-01.34.57:985][841]LogShaderCompilers: Display: Shaders left to compile 117
+[2019.06.12-01.35.01:142][995]LogShaderCompilers: Display: Shaders left to compile 107
+[2019.06.12-01.35.03:094][ 90]LogMaterial: Missing cached shader map for material M_ExplosiveBarrelExploded, compiling. 
+[2019.06.12-01.35.03:520][114]LogShaderCompilers: Display: Shaders left to compile 119
+[2019.06.12-01.35.04:036][144]LogShaderCompilers: Display: Shaders left to compile 109
+[2019.06.12-01.35.04:036][144]LogShaderCompilers: Display: Shaders left to compile 99
+[2019.06.12-01.35.07:377][335]LogShaderCompilers: Display: Shaders left to compile 89
+[2019.06.12-01.35.08:193][383]LogShaderCompilers: Display: Shaders left to compile 79
+[2019.06.12-01.35.08:495][401]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.06.12-01.35.09:304][449]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.06.12-01.35.11:261][565]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.06.12-01.35.11:487][577]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.06.12-01.35.11:842][598]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.06.12-01.35.12:047][609]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.06.12-01.35.14:444][739]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.06.12-01.35.17:892][945]BlueprintLog: New page: Compile BP_ExplosiveBarrel
+[2019.06.12-01.35.18:184][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2019.06.12-01.35.18:203][945]LogSavePackage: Save=14.54ms
+[2019.06.12-01.35.18:203][945]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_ExplosiveBarrelE87A81754CE64A3B3B5DC2A48F47CC69.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2019.06.12-01.35.18:206][945]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset
+[2019.06.12-01.35.20:831][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2019.06.12-01.35.20:839][ 99]LogSavePackage: Save=5.20ms
+[2019.06.12-01.35.20:839][ 99]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_ExplosiveBarrel08CD67A64DBA4539D6FF679752841339.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2019.06.12-01.35.20:840][ 99]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset
+[2019.06.12-02.27.53:982][862]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2019.06.12-02.30.28:223][892]Candidate modules for hot reload:
+[2019.06.12-02.30.28:223][892]  Shooter
+[2019.06.12-02.30.28:223][892]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter -ModuleWithSuffix=Shooter,2759 Win64 Development -editorrecompile -canskiplink "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" ]
+[2019.06.12-02.30.28:231][892]Warning: Starting HotReload took  0.0s.
+[2019.06.12-02.30.41:936][145]CompilerResultsLog: New page: Compilation - 12 Jun 2019 04:30:41
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Parsing headers for ShooterEditor
+[2019.06.12-02.30.41:959][145]CompilerResultsLog:   Running UnrealHeaderTool "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Shooter.uproject" "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Reflection code generated for ShooterEditor in 9.4832742 seconds
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: ExplosiveBarrel.gen.cpp
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: ExplosiveBarrel.cpp
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Shooter.init.gen.cpp
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: SWeapon.cpp
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Error: E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter\Private\ExplosiveBarrel.cpp(36) : error C2027: use of undefined type 'USHealthComponent'
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Error: E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter\Public\ExplosiveBarrel.h(10) : note: see declaration of 'USHealthComponent'
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Error: E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter\Private\ExplosiveBarrel.cpp(61) : error C2653: 'UGameplayStatics': is not a class or namespace name
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Error: E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter\Private\ExplosiveBarrel.cpp(61) : error C3861: 'SpawnEmitterAtLocation': identifier not found
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Binaries\Win64\UE4Editor-Shooter-2759.dll
+[2019.06.12-02.30.41:959][145]CompilerResultsLog: Total build time: 12.88 seconds (Local executor: 0.00 seconds)
+[2019.06.12-02.30.41:959][145]LogMainFrame: MainFrame: Module compiling took 13.741 seconds
+[2019.06.12-02.30.41:960][145]Warning: HotReload failed, recompile failed
+[2019.06.12-02.31.27:079][781]LogSlate: Window 'Message Log' being destroyed
+[2019.06.12-02.31.27:085][781]LogSlate: Window 'Message Log' being destroyed
+[2019.06.12-02.31.27:692][817]Candidate modules for hot reload:
+[2019.06.12-02.31.27:692][817]  Shooter
+[2019.06.12-02.31.27:692][817]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter -ModuleWithSuffix=Shooter,7910 Win64 Development -editorrecompile -canskiplink "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" ]
+[2019.06.12-02.31.27:700][817]Warning: Starting HotReload took  0.0s.
+[2019.06.12-02.31.30:467][984]CompilerResultsLog: New page: Compilation - 12 Jun 2019 04:31:30
+[2019.06.12-02.31.30:467][984]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.06.12-02.31.30:467][984]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.12-02.31.30:467][984]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.06.12-02.31.30:467][984]CompilerResultsLog: ExplosiveBarrel.cpp
+[2019.06.12-02.31.30:467][984]CompilerResultsLog: Error: E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter\Private\ExplosiveBarrel.cpp(7) : fatal error C1083: Cannot open include file: 'SHealthComponent.h': No such file or directory
+[2019.06.12-02.31.30:467][984]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Binaries\Win64\UE4Editor-Shooter-7910.dll
+[2019.06.12-02.31.30:467][984]CompilerResultsLog: Total build time: 2.51 seconds (Local executor: 0.00 seconds)
+[2019.06.12-02.31.30:467][984]LogMainFrame: MainFrame: Module compiling took 2.781 seconds
+[2019.06.12-02.31.30:467][984]Warning: HotReload failed, recompile failed
+[2019.06.12-02.32.37:291][951]Candidate modules for hot reload:
+[2019.06.12-02.32.37:292][951]  Shooter
+[2019.06.12-02.32.37:292][951]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe Shooter -ModuleWithSuffix=Shooter,6742 Win64 Development -editorrecompile -canskiplink "E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Shooter.uproject" ]
+[2019.06.12-02.32.37:300][951]Warning: Starting HotReload took  0.0s.
+[2019.06.12-02.32.41:035][176]CompilerResultsLog: New page: Compilation - 12 Jun 2019 04:32:41
+[2019.06.12-02.32.41:035][176]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.06.12-02.32.41:035][176]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.12-02.32.41:035][176]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.06.12-02.32.41:035][176]CompilerResultsLog: ExplosiveBarrel.cpp
+[2019.06.12-02.32.41:035][176]CompilerResultsLog: [2/3] Link UE4Editor-Shooter-6742.dll
+[2019.06.12-02.32.41:035][176]CompilerResultsLog: [3/3] Link UE4Editor-Shooter-6742.lib
+[2019.06.12-02.32.41:035][176]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-6742.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-6742.exp
+[2019.06.12-02.32.41:035][176]CompilerResultsLog:    Creating library E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-6742.suppressed.lib and object E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-6742.suppressed.exp
+[2019.06.12-02.32.41:035][176]CompilerResultsLog: Total build time: 3.48 seconds (Local executor: 2.43 seconds)
+[2019.06.12-02.32.41:035][176]LogMainFrame: MainFrame: Module compiling took 3.750 seconds
+[2019.06.12-02.32.41:066][176]LogClass: Could not find existing class ExplosiveBarrel in package /Script/Shooter for HotReload, assuming new class
+[2019.06.12-02.32.41:066][176]LogClass: Function OnHealthChanged is new.
+[2019.06.12-02.32.41:075][176]LogHotReload: Re-instancing ExplosiveBarrel after hot-reload.
+[2019.06.12-02.32.41:399][176]LogContentBrowser: Native class hierarchy updated for 'Shooter' in 0.0010 seconds. Added 5 classes and 4 folders.
+[2019.06.12-02.32.41:401][176]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2019.06.12-02.32.41:693][176]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2459 classes and 566 folders.
+[2019.06.12-02.32.41:693][176]Display: HotReload took  4.4s.
+[2019.06.12-02.32.55:003][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-02.32.58:522][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-02.33.06:075][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-02.33.06:142][633]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-02.33.06:159][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-02.33.06:159][633]PIE: New page: PIE session: MainMap (12 Jun 2019 04:33:06)
+[2019.06.12-02.33.06:159][633]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-02.33.06:163][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004422s)
+[2019.06.12-02.33.06:164][633]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-02.33.06:165][633]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2019.06.12-02.33.06:165][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.006003s)
+[2019.06.12-02.33.06:214][633]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-02.33.06:307][633]LogInit: FAudioDevice initialized.
+[2019.06.12-02.33.06:340][633]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-02.33.06:343][633]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-03.33.06
+[2019.06.12-02.33.06:344][633]LogWorld: Bringing up level for play took: 0.002632
+[2019.06.12-02.33.06:345][633]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.096
+[2019.06.12-02.33.07:148][679]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.33.07:232][684]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.33.07:332][690]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.33.07:732][714]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.33.07:815][719]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.33.07:916][725]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.33.08:016][731]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-02.33.08:116][737]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.33.08:116][737]PIE: Warning: BP_ExplosiveBarrel_2.MeshComp SM_ExplosiveBarrel has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.06.12-02.33.08:229][743]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.33.08:330][749]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.33.08:429][755]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.33.09:014][790]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.33.09:096][795]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.33.09:196][801]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.33.09:296][807]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-02.33.09:396][813]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.33.09:396][813]PIE: Warning: BP_ExplosiveBarrel2_5.MeshComp SM_ExplosiveBarrel has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.06.12-02.33.09:496][819]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.33.09:596][825]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.33.09:696][831]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.33.21:929][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-02.33.36:849][451]LogSlate: Window 'Message Log' being destroyed
+[2019.06.12-02.33.36:854][451]LogSlate: Window 'Message Log' being destroyed
+[2019.06.12-02.34.05:836][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.06.12-02.34.05:878][610]LogSavePackage: Save=37.48ms
+[2019.06.12-02.34.05:878][610]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/MainMap_Auto5B8E345824AE53BAB00BB6D8981E48C5C.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto5.umap'
+[2019.06.12-02.34.05:879][610]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/Autosaves/Game/Maps/MainMap_Auto5.umap
+[2019.06.12-02.34.05:881][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMap' took 0.068
+[2019.06.12-02.34.05:881][610]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.068
+[2019.06.12-02.34.44:440][372]BlueprintLog: New page: Compile BP_ExplosiveBarrel
+[2019.06.12-02.34.45:024][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2019.06.12-02.34.45:041][372]LogSavePackage: Save=13.98ms
+[2019.06.12-02.34.45:042][372]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_ExplosiveBarrel568366704C55CB56D1A442A93AA46B34.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2019.06.12-02.34.45:045][372]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset
+[2019.06.12-02.34.45:807][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2019.06.12-02.34.45:815][415]LogSavePackage: Save=5.87ms
+[2019.06.12-02.34.45:815][415]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_ExplosiveBarrelF1CEE61B42AD2592BCDAFF8A11B68BA8.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2019.06.12-02.34.45:817][415]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset
+[2019.06.12-02.34.47:512][517]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-02.34.47:528][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-02.34.47:528][517]PIE: New page: PIE session: MainMap (12 Jun 2019 04:34:47)
+[2019.06.12-02.34.47:528][517]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-02.34.47:531][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002693s)
+[2019.06.12-02.34.47:532][517]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-02.34.47:532][517]LogPlayLevel: PIE: World Init took: (0.001221s)
+[2019.06.12-02.34.47:532][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.004190s)
+[2019.06.12-02.34.47:558][517]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-02.34.47:629][517]LogInit: FAudioDevice initialized.
+[2019.06.12-02.34.47:665][517]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-02.34.47:668][517]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-03.34.47
+[2019.06.12-02.34.47:669][517]LogWorld: Bringing up level for play took: 0.002198
+[2019.06.12-02.34.47:670][517]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap -0.579
+[2019.06.12-02.34.48:604][571]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.34.48:688][576]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.34.48:787][582]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.34.48:887][588]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-02.34.48:987][594]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.48:987][594]PIE: Warning: BP_ExplosiveBarrel_2.MeshComp SM_ExplosiveBarrel has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.06.12-02.34.49:100][598]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.49:199][604]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.49:299][610]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.50:415][677]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.34.50:499][682]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.34.50:599][688]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.34.50:698][694]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-02.34.50:799][700]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.50:799][700]PIE: Warning: BP_ExplosiveBarrel2_5.MeshComp SM_ExplosiveBarrel has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.06.12-02.34.50:899][706]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.50:998][712]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.54:130][899]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.54:213][904]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.54:563][925]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.54:647][930]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.54:748][936]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.54:847][942]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.54:947][948]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.55:047][954]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.55:147][960]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.56:593][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-02.34.56:692][ 47]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-02.34.56:703][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-02.34.56:704][ 47]PIE: New page: PIE session: MainMap (12 Jun 2019 04:34:56)
+[2019.06.12-02.34.56:704][ 47]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-02.34.56:707][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002687s)
+[2019.06.12-02.34.56:707][ 47]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-02.34.56:708][ 47]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2019.06.12-02.34.56:708][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.003955s)
+[2019.06.12-02.34.56:737][ 47]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-02.34.56:811][ 47]LogInit: FAudioDevice initialized.
+[2019.06.12-02.34.56:842][ 47]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-02.34.56:844][ 47]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-03.34.56
+[2019.06.12-02.34.56:845][ 47]LogWorld: Bringing up level for play took: 0.002254
+[2019.06.12-02.34.56:846][ 47]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.597
+[2019.06.12-02.34.57:863][106]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.34.57:946][111]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.34.58:047][117]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.34.58:146][123]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-02.34.58:246][129]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.58:247][129]PIE: Warning: BP_ExplosiveBarrel_2.MeshComp SM_ExplosiveBarrel has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.06.12-02.34.58:347][135]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.34.58:446][141]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.35.00:941][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-02.35.17:046][940]LogSlate: Window 'Message Log' being destroyed
+[2019.06.12-02.35.17:052][940]LogSlate: Window 'Message Log' being destroyed
+[2019.06.12-02.35.44:043][534]BlueprintLog: New page: Compile BP_ExplosiveBarrel
+[2019.06.12-02.35.44:575][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2019.06.12-02.35.44:591][534]LogSavePackage: Save=14.22ms
+[2019.06.12-02.35.44:591][534]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/BP_ExplosiveBarrelDDA413A748EDA6522C350B9155D6B07A.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2019.06.12-02.35.44:594][534]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Blueprints/BP_ExplosiveBarrel.uasset
+[2019.06.12-02.35.46:333][636]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-02.35.46:349][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-02.35.46:349][636]PIE: New page: PIE session: MainMap (12 Jun 2019 04:35:46)
+[2019.06.12-02.35.46:349][636]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-02.35.46:352][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002762s)
+[2019.06.12-02.35.46:353][636]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-02.35.46:353][636]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2019.06.12-02.35.46:353][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.004092s)
+[2019.06.12-02.35.46:393][636]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-02.35.46:464][636]LogInit: FAudioDevice initialized.
+[2019.06.12-02.35.46:495][636]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-02.35.46:499][636]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-03.35.46
+[2019.06.12-02.35.46:499][636]LogWorld: Bringing up level for play took: 0.002704
+[2019.06.12-02.35.46:500][636]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.251
+[2019.06.12-02.35.47:496][690]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.35.47:570][695]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.35.47:669][701]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.35.47:769][707]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-02.35.47:870][713]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.35.47:970][719]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.35.48:069][725]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.35.50:854][892]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.35.50:937][897]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.35.51:037][903]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.35.51:137][909]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.35.52:170][971]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.35.52:255][976]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.35.52:355][982]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.35.52:454][988]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-02.35.52:554][994]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.36.00:821][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-02.36.00:905][490]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.12-02.36.00:919][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.12-02.36.00:919][490]PIE: New page: PIE session: MainMap (12 Jun 2019 04:36:00)
+[2019.06.12-02.36.00:919][490]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2019.06.12-02.36.00:922][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002665s)
+[2019.06.12-02.36.00:922][490]LogAIModule: Creating AISystem for world MainMap
+[2019.06.12-02.36.00:923][490]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2019.06.12-02.36.00:923][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.003768s)
+[2019.06.12-02.36.00:950][490]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.12-02.36.01:025][490]LogInit: FAudioDevice initialized.
+[2019.06.12-02.36.01:062][490]LogLoad: Game class is 'GameModeBase'
+[2019.06.12-02.36.01:065][490]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2019.06.12-03.36.01
+[2019.06.12-02.36.01:066][490]LogWorld: Bringing up level for play took: 0.002587
+[2019.06.12-02.36.01:067][490]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMap 0.818
+[2019.06.12-02.36.04:251][679]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.36.04:335][684]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.36.04:902][718]LogTemp: Warning: Health Changed:80.0
+[2019.06.12-02.36.04:985][723]LogTemp: Warning: Health Changed:60.0
+[2019.06.12-02.36.05:084][729]LogTemp: Warning: Health Changed:40.0
+[2019.06.12-02.36.05:601][760]LogTemp: Warning: Health Changed:20.0
+[2019.06.12-02.36.05:834][774]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.36.05:918][779]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.36.08:510][934]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.36.08:610][940]LogTemp: Warning: Health Changed:0.0
+[2019.06.12-02.36.13:710][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.12-02.36.18:938][405]LogSlate: Window 'Save Content' being destroyed
+[2019.06.12-02.36.19:040][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.12-02.36.19:105][405]LogSavePackage: Save=44.80ms
+[2019.06.12-02.36.19:105][405]LogSavePackage: Moving 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Saved/MainMap24185D5B47F44B0BE7B651BF8048468E.tmp' to 'E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Maps/MainMap.umap'
+[2019.06.12-02.36.19:113][405]LogSavePackage: Display: Finished SavePackage E:/UE projects/FPS_OL/UE4_FPS_Game/Shooter/Content/Maps/MainMap.umap
+[2019.06.12-02.36.19:133][405]LogFileHelpers: Saving map 'MainMap' took 0.162
