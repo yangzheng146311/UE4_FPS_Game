@@ -15,7 +15,7 @@ struct FHitScanTrace {
 
 public:
 	UPROPERTY()
-		FVector_NetQuantize TraceFrom;
+		TEnumAsByte<EPhysicalSurface> SurfaceType;
 	UPROPERTY()
 	FVector_NetQuantize TraceTo;
 };
@@ -75,6 +75,9 @@ protected:
 
 	UFUNCTION()
 	void OnRep_HitScanTrace();
+
+	void PlayImpactEffect(EPhysicalSurface SurfaceType, FVector ImpactPoint);
+
 
 
 	UFUNCTION(BlueprintCallable, Category = "Weapon")

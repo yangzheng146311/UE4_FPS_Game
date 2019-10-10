@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 	SHOOTER_API UScriptStruct* Z_Construct_UScriptStruct_FHitScanTrace();
 	UPackage* Z_Construct_UPackage__Script_Shooter();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FVector_NetQuantize();
+	ENGINE_API UEnum* Z_Construct_UEnum_Engine_EPhysicalSurface();
 	SHOOTER_API UClass* Z_Construct_UClass_ASWeapon_NoRegister();
 	SHOOTER_API UClass* Z_Construct_UClass_ASWeapon();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
@@ -70,14 +71,14 @@ static struct FScriptStruct_Shooter_StaticRegisterNativesFHitScanTrace
 #endif
 			static const UE4CodeGen_Private::FStructPropertyParams NewProp_TraceTo = { UE4CodeGen_Private::EPropertyClass::Struct, "TraceTo", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000000, 1, nullptr, STRUCT_OFFSET(FHitScanTrace, TraceTo), Z_Construct_UScriptStruct_FVector_NetQuantize, METADATA_PARAMS(NewProp_TraceTo_MetaData, ARRAY_COUNT(NewProp_TraceTo_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TraceFrom_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SurfaceType_MetaData[] = {
 				{ "ModuleRelativePath", "Public/SWeapon.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FStructPropertyParams NewProp_TraceFrom = { UE4CodeGen_Private::EPropertyClass::Struct, "TraceFrom", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000000, 1, nullptr, STRUCT_OFFSET(FHitScanTrace, TraceFrom), Z_Construct_UScriptStruct_FVector_NetQuantize, METADATA_PARAMS(NewProp_TraceFrom_MetaData, ARRAY_COUNT(NewProp_TraceFrom_MetaData)) };
+			static const UE4CodeGen_Private::FBytePropertyParams NewProp_SurfaceType = { UE4CodeGen_Private::EPropertyClass::Byte, "SurfaceType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000000, 1, nullptr, STRUCT_OFFSET(FHitScanTrace, SurfaceType), Z_Construct_UEnum_Engine_EPhysicalSurface, METADATA_PARAMS(NewProp_SurfaceType_MetaData, ARRAY_COUNT(NewProp_SurfaceType_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TraceTo,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TraceFrom,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SurfaceType,
 			};
 			static const UE4CodeGen_Private::FStructParams ReturnStructParams = {
 				(UObject* (*)())Z_Construct_UPackage__Script_Shooter,
@@ -95,7 +96,7 @@ static struct FScriptStruct_Shooter_StaticRegisterNativesFHitScanTrace
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FHitScanTrace_CRC() { return 4282074644U; }
+	uint32 Get_Z_Construct_UScriptStruct_FHitScanTrace_CRC() { return 2619960564U; }
 	static FName NAME_ASWeapon_ServerFire = FName(TEXT("ServerFire"));
 	void ASWeapon::ServerFire()
 	{
