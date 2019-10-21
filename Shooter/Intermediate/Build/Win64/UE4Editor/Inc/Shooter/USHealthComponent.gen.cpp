@@ -156,7 +156,7 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 				{ "ModuleRelativePath", "Public/Components/USHealthComponent.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentHealth = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentHealth", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000004, 1, nullptr, STRUCT_OFFSET(USHealthComponent, CurrentHealth), METADATA_PARAMS(NewProp_CurrentHealth_MetaData, ARRAY_COUNT(NewProp_CurrentHealth_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentHealth = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentHealth", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000024, 1, nullptr, STRUCT_OFFSET(USHealthComponent, CurrentHealth), METADATA_PARAMS(NewProp_CurrentHealth_MetaData, ARRAY_COUNT(NewProp_CurrentHealth_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DefaultHealth_MetaData[] = {
 				{ "Category", "HealthComponent" },
@@ -187,7 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USHealthComponent, 4025661394);
+	IMPLEMENT_CLASS(USHealthComponent, 387079029);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USHealthComponent(Z_Construct_UClass_USHealthComponent, &USHealthComponent::StaticClass, TEXT("/Script/Shooter"), TEXT("USHealthComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USHealthComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -19,6 +19,14 @@ class AActor;
 
 #define Shooter_Source_Shooter_Public_ExplosiveBarrel_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnRep_Exploded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_Exploded(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnHealthChanged) \
 	{ \
 		P_GET_OBJECT(USHealthComponent,Z_Param_HealthComponent); \
@@ -35,6 +43,14 @@ class AActor;
 
 
 #define Shooter_Source_Shooter_Public_ExplosiveBarrel_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnRep_Exploded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_Exploded(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnHealthChanged) \
 	{ \
@@ -58,7 +74,8 @@ private: \
 public: \
 	DECLARE_CLASS(AExplosiveBarrel, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Shooter"), NO_API) \
 	DECLARE_SERIALIZER(AExplosiveBarrel) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Shooter_Source_Shooter_Public_ExplosiveBarrel_h_15_INCLASS \
@@ -68,7 +85,8 @@ private: \
 public: \
 	DECLARE_CLASS(AExplosiveBarrel, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Shooter"), NO_API) \
 	DECLARE_SERIALIZER(AExplosiveBarrel) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Shooter_Source_Shooter_Public_ExplosiveBarrel_h_15_STANDARD_CONSTRUCTORS \
@@ -101,7 +119,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AExplosiveBarrel); \
 	FORCEINLINE static uint32 __PPO__ExplosiveMaterial() { return STRUCT_OFFSET(AExplosiveBarrel, ExplosiveMaterial); } \
 	FORCEINLINE static uint32 __PPO__HealthComp() { return STRUCT_OFFSET(AExplosiveBarrel, HealthComp); } \
 	FORCEINLINE static uint32 __PPO__RadialForceComp() { return STRUCT_OFFSET(AExplosiveBarrel, RadialForceComp); } \
-	FORCEINLINE static uint32 __PPO__ExplosionImpulse() { return STRUCT_OFFSET(AExplosiveBarrel, ExplosionImpulse); }
+	FORCEINLINE static uint32 __PPO__ExplosionImpulse() { return STRUCT_OFFSET(AExplosiveBarrel, ExplosionImpulse); } \
+	FORCEINLINE static uint32 __PPO__bExploded() { return STRUCT_OFFSET(AExplosiveBarrel, bExploded); }
 
 
 #define Shooter_Source_Shooter_Public_ExplosiveBarrel_h_12_PROLOG

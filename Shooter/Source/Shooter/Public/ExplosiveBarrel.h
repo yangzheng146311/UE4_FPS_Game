@@ -42,7 +42,11 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "FX")
 	float ExplosionImpulse;
 
+	UPROPERTY(ReplicatedUsing = OnRep_Exploded)
 	bool bExploded;
+
+	UFUNCTION()
+	void OnRep_Exploded();
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

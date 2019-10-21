@@ -47,7 +47,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Player",meta=(ClampMin=0.1,ClampMax=100))
 	float ZoomInterpSpeed;
 
-	UPROPERTY(BlueprintReadOnly, Category = "Health")
+	UPROPERTY(Replicated,BlueprintReadOnly, Category = "Health")
 	bool bDied;
 
 	UPROPERTY(Replicated)

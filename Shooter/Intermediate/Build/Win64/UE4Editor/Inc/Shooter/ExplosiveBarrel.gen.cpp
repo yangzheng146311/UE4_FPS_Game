@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	SHOOTER_API UClass* Z_Construct_UClass_USHealthComponent_NoRegister();
+	SHOOTER_API UFunction* Z_Construct_UFunction_AExplosiveBarrel_OnRep_Exploded();
 	ENGINE_API UClass* Z_Construct_UClass_URadialForceComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
@@ -32,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 		UClass* Class = AExplosiveBarrel::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnHealthChanged", &AExplosiveBarrel::execOnHealthChanged },
+			{ "OnRep_Exploded", &AExplosiveBarrel::execOnRep_Exploded },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -83,6 +85,21 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AExplosiveBarrel_OnRep_Exploded()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Public/ExplosiveBarrel.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AExplosiveBarrel, "OnRep_Exploded", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00080401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AExplosiveBarrel_NoRegister()
 	{
 		return AExplosiveBarrel::StaticClass();
@@ -98,6 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AExplosiveBarrel_OnHealthChanged, "OnHealthChanged" }, // 2310765538
+				{ &Z_Construct_UFunction_AExplosiveBarrel_OnRep_Exploded, "OnRep_Exploded" }, // 3172613164
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -105,6 +123,13 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 				{ "ModuleRelativePath", "Public/ExplosiveBarrel.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bExploded_MetaData[] = {
+				{ "ModuleRelativePath", "Public/ExplosiveBarrel.h" },
+			};
+#endif
+			auto NewProp_bExploded_SetBit = [](void* Obj){ ((AExplosiveBarrel*)Obj)->bExploded = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bExploded = { UE4CodeGen_Private::EPropertyClass::Bool, "bExploded", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080100000020, 1, "OnRep_Exploded", sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AExplosiveBarrel), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_bExploded_SetBit)>::SetBit, METADATA_PARAMS(NewProp_bExploded_MetaData, ARRAY_COUNT(NewProp_bExploded_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ExplosionImpulse_MetaData[] = {
 				{ "Category", "FX" },
@@ -151,6 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MeshComp = { UE4CodeGen_Private::EPropertyClass::Object, "MeshComp", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a0009, 1, nullptr, STRUCT_OFFSET(AExplosiveBarrel, MeshComp), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_MeshComp_MetaData, ARRAY_COUNT(NewProp_MeshComp_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bExploded,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ExplosionImpulse,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_RadialForceComp,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HealthComp,
@@ -176,7 +202,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AExplosiveBarrel, 43080053);
+	IMPLEMENT_CLASS(AExplosiveBarrel, 84709576);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AExplosiveBarrel(Z_Construct_UClass_AExplosiveBarrel, &AExplosiveBarrel::StaticClass, TEXT("/Script/Shooter"), TEXT("AExplosiveBarrel"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AExplosiveBarrel);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
