@@ -87,9 +87,13 @@ void ASWeapon::Fire()
 
 			
 
-			
+			float ActualDamage = BaseDamage;
 
-			UGameplayStatics::ApplyPointDamage(HitActor, BaseDamage * 4, ShotDirection, OutHit, MyOwner->GetInstigatorController(), this, DamageType);
+			if (SurfaceType == SURFACETYPE_FleshVulnerable) {
+				ActualDamage = BaseDamage * 4;
+			}
+
+			UGameplayStatics::ApplyPointDamage(HitActor, ActualDamage, ShotDirection, OutHit, MyOwner->GetInstigatorController(), this, DamageType);
 
 			PlayImpactEffect(SurfaceType, OutHit.ImpactPoint);
 		}

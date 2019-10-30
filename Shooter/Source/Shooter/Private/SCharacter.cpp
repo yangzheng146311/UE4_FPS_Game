@@ -28,7 +28,7 @@ ASCharacter::ASCharacter()
 	HealthComp= CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 
 	ZoomedFOV = 65;
-	ZoomInterpSpeed = 3.0f;
+	ZoomInterpSpeed = 9.0f;
 
 	bDied= false;
 

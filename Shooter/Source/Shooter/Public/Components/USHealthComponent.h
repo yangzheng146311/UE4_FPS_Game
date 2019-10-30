@@ -25,8 +25,11 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "HealthComponent")
 	float DefaultHealth;
 
-	UPROPERTY(Replicated,BlueprintReadWrite, Category = "HealthComponent")
+	UPROPERTY(ReplicatedUsing = OnRep_Health,BlueprintReadWrite, Category = "HealthComponent")
 	float CurrentHealth;
+
+	UFUNCTION()
+	void OnRep_Health(float OldHealth);
 
 	UFUNCTION()
 	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);

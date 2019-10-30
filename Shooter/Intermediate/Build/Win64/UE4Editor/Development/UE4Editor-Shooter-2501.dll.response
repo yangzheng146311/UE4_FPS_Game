@@ -1,0 +1,77 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\Shooter.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\ShooterGameModeBase.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\ExplosiveBarrel.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\SCharacter.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\SWeapon.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\STracker.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\USHealthComponent.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\ExplosiveBarrel.gen.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\SCharacter.gen.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\Shooter.init.gen.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\ShooterGameModeBase.gen.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\STracker.gen.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\SWeapon.gen.cpp.obj"
+"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\USHealthComponent.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Shooter\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+/OUT:"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Binaries\Win64\UE4Editor-Shooter-2501.dll"
+/IMPLIB:"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Shooter-2501.suppressed.lib"
+/PDB:"E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Binaries\Win64\UE4Editor-Shooter-2501.pdb"
+/ignore:4078

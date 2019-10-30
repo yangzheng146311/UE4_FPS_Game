@@ -25,6 +25,7 @@
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source"
 /I "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source"
 /I "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter\Public"
+/I "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter\Public\AI"
 /I "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter\Public\Components"
 /I "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Intermediate\Build\Win64\UE4Editor\Inc\Shooter"
 /I "E:\UE projects\FPS_OL\UE4_FPS_Game\Shooter\Source\Shooter"
