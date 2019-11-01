@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 	SHOOTER_API UClass* Z_Construct_UClass_USHealthComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	SHOOTER_API UFunction* Z_Construct_UFunction_USHealthComponent_HandleTakeAnyDamage();
+	SHOOTER_API UFunction* Z_Construct_UFunction_USHealthComponent_Heal();
 	SHOOTER_API UFunction* Z_Construct_UFunction_USHealthComponent_OnRep_Health();
 // End Cross Module References
 	UFunction* Z_Construct_UDelegateFunction_Shooter_OnHealthChangedSignature__DelegateSignature()
@@ -77,6 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 		UClass* Class = USHealthComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "HandleTakeAnyDamage", &USHealthComponent::execHandleTakeAnyDamage },
+			{ "Heal", &USHealthComponent::execHeal },
 			{ "OnRep_Health", &USHealthComponent::execOnRep_Health },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -121,6 +123,30 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_USHealthComponent_Heal()
+	{
+		struct SHealthComponent_eventHeal_Parms
+		{
+			float HealAmount;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealAmount = { UE4CodeGen_Private::EPropertyClass::Float, "HealAmount", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(SHealthComponent_eventHeal_Parms, HealAmount), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HealAmount,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "HealthComponent" },
+				{ "ModuleRelativePath", "Public/Components/USHealthComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_USHealthComponent, "Heal", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04080401, sizeof(SHealthComponent_eventHeal_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UFunction* Z_Construct_UFunction_USHealthComponent_OnRep_Health()
 	{
 		struct SHealthComponent_eventOnRep_Health_Parms
@@ -159,6 +185,7 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_USHealthComponent_HandleTakeAnyDamage, "HandleTakeAnyDamage" }, // 2526605784
+				{ &Z_Construct_UFunction_USHealthComponent_Heal, "Heal" }, // 3550649656
 				{ &Z_Construct_UFunction_USHealthComponent_OnRep_Health, "OnRep_Health" }, // 2577220878
 			};
 #if WITH_METADATA
@@ -213,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USHealthComponent, 2292882362);
+	IMPLEMENT_CLASS(USHealthComponent, 2191017044);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USHealthComponent(Z_Construct_UClass_USHealthComponent, &USHealthComponent::StaticClass, TEXT("/Script/Shooter"), TEXT("USHealthComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USHealthComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

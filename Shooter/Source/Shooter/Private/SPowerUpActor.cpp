@@ -24,7 +24,7 @@ void ASPowerUpActor::OnTickPowerup()
 	
 	OnPowerupTicked();
 
-	if (TicksProcessed >= TotalNrOfTicks) {
+	if (TicksProcessed >= (TotalNrOfTicks-1)) {
 		OnExpired();
 		GetWorldTimerManager().ClearTimer(TimerHandle_PowerupTick);
 	}
