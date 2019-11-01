@@ -1,103 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Shooter.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{FEA11132-4D7F-4B9F-BA20-F09653F0B2BF}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Shooter.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\ShooterEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{DFA7DCED-FDDC-4F45-90D5-F6BE71C0B526}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Shooter">
-			<UniqueIdentifier>{3673A226-E301-4380-A025-2964DD16336E}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Shooter\Shooter.Build.cs">
-			<Filter>Source\Shooter</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Shooter\Shooter.cpp">
-			<Filter>Source\Shooter</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Shooter\Shooter.h">
-			<Filter>Source\Shooter</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Shooter\ShooterGameModeBase.cpp">
-			<Filter>Source\Shooter</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Shooter\ShooterGameModeBase.h">
-			<Filter>Source\Shooter</Filter>
-		</ClInclude >
-		<Filter Include="Source\Shooter\Private">
-			<UniqueIdentifier>{C0E336D8-2120-470E-8F98-B3E8E2911B17}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Shooter\Private\ExplosiveBarrel.cpp">
-			<Filter>Source\Shooter\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\Shooter\Private\SCharacter.cpp">
-			<Filter>Source\Shooter\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\Shooter\Private\SPickUpActor.cpp">
-			<Filter>Source\Shooter\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\Shooter\Private\SWeapon.cpp">
-			<Filter>Source\Shooter\Private</Filter>
-		</ClCompile >
-		<Filter Include="Source\Shooter\Private\AI">
-			<UniqueIdentifier>{979BE9C3-6B11-4241-B613-F741F44990C6}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Shooter\Private\AI\STracker.cpp">
-			<Filter>Source\Shooter\Private\AI</Filter>
-		</ClCompile >
-		<Filter Include="Source\Shooter\Private\Components">
-			<UniqueIdentifier>{6DC38C80-F324-4DAC-8CC6-C486E51AE1CA}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Shooter\Private\Components\USHealthComponent.cpp">
-			<Filter>Source\Shooter\Private\Components</Filter>
-		</ClCompile >
-		<Filter Include="Source\Shooter\Public">
-			<UniqueIdentifier>{EC1A7AA2-DE7B-4BEE-B80A-246D5FB58EA1}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Source\Shooter\Public\ExplosiveBarrel.h">
-			<Filter>Source\Shooter\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\Shooter\Public\SCharacter.h">
-			<Filter>Source\Shooter\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\Shooter\Public\SPickUpActor.h">
-			<Filter>Source\Shooter\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\Shooter\Public\SWeapon.h">
-			<Filter>Source\Shooter\Public</Filter>
-		</ClInclude >
-		<Filter Include="Source\Shooter\Public\AI">
-			<UniqueIdentifier>{C7AAB896-2C7D-446A-BA9E-82E1833E5770}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Source\Shooter\Public\AI\STracker.h">
-			<Filter>Source\Shooter\Public\AI</Filter>
-		</ClInclude >
-		<Filter Include="Source\Shooter\Public\Components">
-			<UniqueIdentifier>{7C934EB5-ADFB-437A-AA7C-CAE0CE8E775F}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Source\Shooter\Public\Components\USHealthComponent.h">
-			<Filter>Source\Shooter\Public\Components</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Shooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{FEA11132-4D7F-4B9F-BA20-F09653F0B2BF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Shooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{DFA7DCED-FDDC-4F45-90D5-F6BE71C0B526}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Shooter">
+      <UniqueIdentifier>{3673A226-E301-4380-A025-2964DD16336E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Shooter\Shooter.Build.cs">
+      <Filter>Source\Shooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Shooter\Shooter.cpp">
+      <Filter>Source\Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Shooter\Shooter.h">
+      <Filter>Source\Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Shooter\ShooterGameModeBase.cpp">
+      <Filter>Source\Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Shooter\ShooterGameModeBase.h">
+      <Filter>Source\Shooter</Filter>
+    </ClInclude>
+    <Filter Include="Source\Shooter\Private">
+      <UniqueIdentifier>{C0E336D8-2120-470E-8F98-B3E8E2911B17}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Shooter\Private\ExplosiveBarrel.cpp">
+      <Filter>Source\Shooter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter\Private\SCharacter.cpp">
+      <Filter>Source\Shooter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter\Private\SPickUpActor.cpp">
+      <Filter>Source\Shooter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter\Private\SWeapon.cpp">
+      <Filter>Source\Shooter\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Shooter\Private\AI">
+      <UniqueIdentifier>{979BE9C3-6B11-4241-B613-F741F44990C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Shooter\Private\AI\STracker.cpp">
+      <Filter>Source\Shooter\Private\AI</Filter>
+    </ClCompile>
+    <Filter Include="Source\Shooter\Private\Components">
+      <UniqueIdentifier>{6DC38C80-F324-4DAC-8CC6-C486E51AE1CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Shooter\Private\Components\USHealthComponent.cpp">
+      <Filter>Source\Shooter\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\Shooter\Public">
+      <UniqueIdentifier>{EC1A7AA2-DE7B-4BEE-B80A-246D5FB58EA1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Shooter\Public\ExplosiveBarrel.h">
+      <Filter>Source\Shooter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter\Public\SCharacter.h">
+      <Filter>Source\Shooter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter\Public\SPickUpActor.h">
+      <Filter>Source\Shooter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter\Public\SWeapon.h">
+      <Filter>Source\Shooter\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Shooter\Public\AI">
+      <UniqueIdentifier>{C7AAB896-2C7D-446A-BA9E-82E1833E5770}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Shooter\Public\AI\STracker.h">
+      <Filter>Source\Shooter\Public\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Shooter\Public\Components">
+      <UniqueIdentifier>{7C934EB5-ADFB-437A-AA7C-CAE0CE8E775F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Shooter\Public\Components\USHealthComponent.h">
+      <Filter>Source\Shooter\Public\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Shooter\Public\SPowerUpActor.h">
+      <Filter>Source\Shooter\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Shooter\Private\SPowerUpActor.cpp">
+      <Filter>Source\Shooter\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
