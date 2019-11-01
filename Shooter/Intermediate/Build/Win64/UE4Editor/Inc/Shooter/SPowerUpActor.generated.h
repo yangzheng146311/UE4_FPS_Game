@@ -44,8 +44,7 @@ private: \
 public: \
 	DECLARE_CLASS(ASPowerUpActor, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Shooter"), NO_API) \
 	DECLARE_SERIALIZER(ASPowerUpActor) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
-	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
 #define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_INCLASS \
@@ -55,8 +54,7 @@ private: \
 public: \
 	DECLARE_CLASS(ASPowerUpActor, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Shooter"), NO_API) \
 	DECLARE_SERIALIZER(ASPowerUpActor) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
-	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
 #define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_STANDARD_CONSTRUCTORS \

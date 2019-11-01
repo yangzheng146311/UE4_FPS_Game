@@ -6,10 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "SPickUpActor.generated.h"
 
-
-
 class USphereComponent;
-
+class ASPowerUpActor;
 UCLASS()
 class SHOOTER_API ASPickUpActor : public AActor
 {
@@ -21,21 +19,32 @@ public:
 
 protected:
 
-	UPROPERTY(VisibleAnywhere, Category = "Components")
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	
+    void Respawn();
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
+	
+
+    UPROPERTY(VisibleAnywhere, Category = "Components")
 	USphereComponent* SphereComp;
 
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UDecalComponent* DecalComp;
 
+    UPROPERTY(EditDefaultsOnly, Category = "Pickups")
+	TSubclassOf<ASPowerUpActor> PowerUpClass;
+
+    UPROPERTY(EditDefaultsOnly,Category="Pickups")
+	float CooldownTime;
 
 
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	ASPowerUpActor* PowerupInstance;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	
-	
+    FTimerHandle TimerHandle_RespawnTimer;
 };

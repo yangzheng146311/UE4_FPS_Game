@@ -46,7 +46,7 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Powerups")
 	void OnPowerupTicked();
 
-	UPROPERTY(Replicated, EditDefaultsOnly, Category = "Powerups")
+	UPROPERTY(EditDefaultsOnly, Category = "Powerups")
 	float PowerupInterval;
 	
 };

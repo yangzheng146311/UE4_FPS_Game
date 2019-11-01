@@ -139,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeSPowerUpActor() {}
 				{ "ModuleRelativePath", "Public/SPowerUpActor.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PowerupInterval = { UE4CodeGen_Private::EPropertyClass::Float, "PowerupInterval", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000010021, 1, nullptr, STRUCT_OFFSET(ASPowerUpActor, PowerupInterval), METADATA_PARAMS(NewProp_PowerupInterval_MetaData, ARRAY_COUNT(NewProp_PowerupInterval_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PowerupInterval = { UE4CodeGen_Private::EPropertyClass::Float, "PowerupInterval", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000010001, 1, nullptr, STRUCT_OFFSET(ASPowerUpActor, PowerupInterval), METADATA_PARAMS(NewProp_PowerupInterval_MetaData, ARRAY_COUNT(NewProp_PowerupInterval_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TotalNrOfTicks_MetaData[] = {
 				{ "Category", "Powerups" },
@@ -169,7 +169,7 @@ void EmptyLinkFunctionForGeneratedCodeSPowerUpActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASPowerUpActor, 3397553317);
+	IMPLEMENT_CLASS(ASPowerUpActor, 4229793141);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASPowerUpActor(Z_Construct_UClass_ASPowerUpActor, &ASPowerUpActor::StaticClass, TEXT("/Script/Shooter"), TEXT("ASPowerUpActor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASPowerUpActor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
