@@ -107,6 +107,33 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TempEnergy_MetaData[] = {
+				{ "ModuleRelativePath", "Public/SCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TempEnergy = { UE4CodeGen_Private::EPropertyClass::Float, "TempEnergy", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000020, 1, nullptr, STRUCT_OFFSET(ASCharacter, TempEnergy), METADATA_PARAMS(NewProp_TempEnergy_MetaData, ARRAY_COUNT(NewProp_TempEnergy_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PowerupInterval_MetaData[] = {
+				{ "Category", "Energy" },
+				{ "ModuleRelativePath", "Public/SCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PowerupInterval = { UE4CodeGen_Private::EPropertyClass::Float, "PowerupInterval", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000010021, 1, nullptr, STRUCT_OFFSET(ASCharacter, PowerupInterval), METADATA_PARAMS(NewProp_PowerupInterval_MetaData, ARRAY_COUNT(NewProp_PowerupInterval_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bGetEnergy_MetaData[] = {
+				{ "ModuleRelativePath", "Public/SCharacter.h" },
+			};
+#endif
+			auto NewProp_bGetEnergy_SetBit = [](void* Obj){ ((ASCharacter*)Obj)->bGetEnergy = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bGetEnergy = { UE4CodeGen_Private::EPropertyClass::Bool, "bGetEnergy", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000020, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ASCharacter), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_bGetEnergy_SetBit)>::SetBit, METADATA_PARAMS(NewProp_bGetEnergy_MetaData, ARRAY_COUNT(NewProp_bGetEnergy_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnergyPercent_MetaData[] = {
+				{ "Category", "Energy" },
+				{ "ModuleRelativePath", "Public/SCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_EnergyPercent = { UE4CodeGen_Private::EPropertyClass::Float, "EnergyPercent", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000034, 1, nullptr, STRUCT_OFFSET(ASCharacter, EnergyPercent), METADATA_PARAMS(NewProp_EnergyPercent_MetaData, ARRAY_COUNT(NewProp_EnergyPercent_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StarterWeaponClass_MetaData[] = {
 				{ "Category", "Player" },
 				{ "ModuleRelativePath", "Public/SCharacter.h" },
@@ -168,6 +195,10 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComp = { UE4CodeGen_Private::EPropertyClass::Object, "CameraComp", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(ASCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_CameraComp_MetaData, ARRAY_COUNT(NewProp_CameraComp_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TempEnergy,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PowerupInterval,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bGetEnergy,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_EnergyPercent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_StarterWeaponClass,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HealthComp,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentWeapon,
@@ -195,7 +226,7 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASCharacter, 4110946489);
+	IMPLEMENT_CLASS(ASCharacter, 1112988283);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASCharacter(Z_Construct_UClass_ASCharacter, &ASCharacter::StaticClass, TEXT("/Script/Shooter"), TEXT("ASCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

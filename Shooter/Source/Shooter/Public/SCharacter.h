@@ -50,10 +50,12 @@ protected:
 	UPROPERTY(Replicated,BlueprintReadOnly, Category = "Health")
 	bool bDied;
 
+	
+
 	UPROPERTY(Replicated)
 	ASWeapon* CurrentWeapon;
 
-	UPROPERTY(VisibleAnywhere,BlueprintReadOnly, Category = "Health")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Health")
 	USHealthComponent* HealthComp;
 
 	UFUNCTION()
@@ -61,7 +63,28 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Player")
 	TSubclassOf<ASWeapon> StarterWeaponClass;
+
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Energy")
+	float EnergyPercent;
+
+
+	void CacaulateEnergyPercent(float DeltaTime);
 public:	
+
+
+	UPROPERTY(Replicated)
+	bool bGetEnergy;
+	
+	UPROPERTY(Replicated, EditDefaultsOnly, Category = Energy)
+	float PowerupInterval;
+	
+	UPROPERTY(Replicated)
+	float TempEnergy;
+
+
+
+
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -69,5 +92,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	virtual FVector GetPawnViewLocation() const override;
+
+	
 	
 };

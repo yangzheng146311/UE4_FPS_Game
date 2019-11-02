@@ -19,8 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UFUNCTION()
-	void OnTickPowerup();
+	
 
 	UPROPERTY(EditDefaultsOnly, Category = "Powerups")
 	int32 TotalNrOfTicks;
@@ -29,14 +28,28 @@ protected:
 
 	FTimerHandle TimerHandle_PowerupTick;
 
+	UPROPERTY(ReplicatedUsing = OnRep_PowerupActive)
+	bool bIsPowerupActive;
+
+
+	UFUNCTION()
+	void OnRep_PowerupActive();
+
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Powerups")
+	void OnPowerupStateChanged(bool bNewActive);
+
+	UFUNCTION()
+	void OnTickPowerup();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void ActivePowerup();
+	void ActivePowerup(AActor * OtherActor);
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Powerups")
-	void OnActived();
+	void OnActived(AActor * OtherActor);
 
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Powerups")

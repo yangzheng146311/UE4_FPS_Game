@@ -31,7 +31,7 @@ ASCharacter::ASCharacter()
 	ZoomInterpSpeed = 9.0f;
 
 	bDied= false;
-
+	bGetEnergy = false;
 	
 }
 
@@ -131,6 +131,11 @@ void ASCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+
+	if (bGetEnergy) {
+		CacaulateEnergyPercent(DeltaTime);
+	}
+
 	float TargetFOV = bWantsToZoom ? ZoomedFOV : DefaultFOV;
 
 	float NewFov=FMath::FInterpTo(CameraComp->FieldOfView, TargetFOV, DeltaTime, ZoomInterpSpeed);
@@ -167,9 +172,22 @@ FVector ASCharacter::GetPawnViewLocation() const
 
 	return Super::GetPawnViewLocation();
 }
+
+
+void ASCharacter::CacaulateEnergyPercent(float DeltaTime)
+{
+	TempEnergy -= DeltaTime;
+	EnergyPercent = TempEnergy / PowerupInterval;
+}
+
+
 void ASCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ASCharacter, CurrentWeapon);
 	DOREPLIFETIME(ASCharacter, bDied);
-	
+	DOREPLIFETIME(ASCharacter, EnergyPercent);
+	DOREPLIFETIME(ASCharacter, bGetEnergy);
+	DOREPLIFETIME(ASCharacter, PowerupInterval);
+	DOREPLIFETIME(ASCharacter, TempEnergy);
 }
+

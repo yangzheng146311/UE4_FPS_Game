@@ -28,6 +28,9 @@ protected:
 	UPROPERTY(ReplicatedUsing = OnRep_Health,BlueprintReadWrite, Category = "HealthComponent")
 	float CurrentHealth;
 
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Health")
+	float HealthPercent;
+
 	UFUNCTION()
 	void OnRep_Health(float OldHealth);
 

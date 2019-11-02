@@ -8,6 +8,7 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef SHOOTER_SPowerUpActor_generated_h
 #error "SPowerUpActor.generated.h already included, missing '#pragma once' in SPowerUpActor.h"
 #endif
@@ -21,6 +22,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->OnTickPowerup(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_PowerupActive) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_PowerupActive(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -32,10 +41,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->OnTickPowerup(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_PowerupActive) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_PowerupActive(); \
+		P_NATIVE_END; \
 	}
 
 
-#define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_EVENT_PARMS
+#define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_EVENT_PARMS \
+	struct SPowerUpActor_eventOnActived_Parms \
+	{ \
+		AActor* OtherActor; \
+	}; \
+	struct SPowerUpActor_eventOnPowerupStateChanged_Parms \
+	{ \
+		bool bNewActive; \
+	};
+
+
 #define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_CALLBACK_WRAPPERS
 #define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -44,7 +71,8 @@ private: \
 public: \
 	DECLARE_CLASS(ASPowerUpActor, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Shooter"), NO_API) \
 	DECLARE_SERIALIZER(ASPowerUpActor) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_INCLASS \
@@ -54,7 +82,8 @@ private: \
 public: \
 	DECLARE_CLASS(ASPowerUpActor, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Shooter"), NO_API) \
 	DECLARE_SERIALIZER(ASPowerUpActor) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_STANDARD_CONSTRUCTORS \
@@ -82,7 +111,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASPowerUpActor); \
 
 
 #define Shooter_Source_Shooter_Public_SPowerUpActor_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__TotalNrOfTicks() { return STRUCT_OFFSET(ASPowerUpActor, TotalNrOfTicks); }
+	FORCEINLINE static uint32 __PPO__TotalNrOfTicks() { return STRUCT_OFFSET(ASPowerUpActor, TotalNrOfTicks); } \
+	FORCEINLINE static uint32 __PPO__bIsPowerupActive() { return STRUCT_OFFSET(ASPowerUpActor, bIsPowerupActive); }
 
 
 #define Shooter_Source_Shooter_Public_SPowerUpActor_h_9_PROLOG \

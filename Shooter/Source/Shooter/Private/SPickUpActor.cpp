@@ -12,12 +12,12 @@
 // Sets default values
 ASPickUpActor::ASPickUpActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("ShpereComp"));
 	SphereComp->SetSphereRadius(75.0f);
-    SphereComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	SphereComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 	SphereComp->SetCollisionResponseToAllChannels(ECR_Ignore);
 	SphereComp->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
 	RootComponent = SphereComp;
@@ -28,15 +28,18 @@ ASPickUpActor::ASPickUpActor()
 
 	DecalComp->SetupAttachment(RootComponent);
 
-CooldownTime = 5.0f;
+	CooldownTime = 5.0f;
+
+	SetReplicates(true);
 }
 
 // Called when the game starts or when spawned
 void ASPickUpActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
-    Respawn();
+
+	if(Role==ROLE_Authority)
+	Respawn();
 }
 
 // Called every frame
@@ -56,7 +59,7 @@ void ASPickUpActor::Respawn()
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
-	PowerupInstance= GetWorld()->SpawnActor<ASPowerUpActor>(PowerUpClass,GetTransform(),SpawnParams);
+	PowerupInstance = GetWorld()->SpawnActor<ASPowerUpActor>(PowerUpClass, GetTransform(), SpawnParams);
 
 
 }
@@ -69,12 +72,20 @@ void ASPickUpActor::NotifyActorBeginOverlap(AActor * OtherActor)
 
 
 	if (PlayerPawn) {
-if(PowerupInstance)
-{
-	PowerupInstance->ActivePowerup();
-	PowerupInstance = nullptr;
+		if (PowerupInstance&&Role == ROLE_Authority)
+		{
 
-	GetWorldTimerManager().SetTimer(TimerHandle_RespawnTimer, this, &ASPickUpActor::Respawn, CooldownTime);
+
+			if (PowerupInstance->GetFName().ToString().Contains("Speed")) {
+				PlayerPawn->bGetEnergy = true;
+				PlayerPawn->PowerupInterval = PowerupInstance->PowerupInterval;
+				PlayerPawn->TempEnergy = PowerupInstance->PowerupInterval;
+			}
+
+			PowerupInstance->ActivePowerup( OtherActor);
+			PowerupInstance = nullptr;
+
+			GetWorldTimerManager().SetTimer(TimerHandle_RespawnTimer, this, &ASPickUpActor::Respawn, CooldownTime);
+		}
 	}
-}
 }

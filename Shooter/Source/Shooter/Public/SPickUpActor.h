@@ -37,7 +37,7 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UDecalComponent* DecalComp;
 
-    UPROPERTY(EditDefaultsOnly, Category = "Pickups")
+	UPROPERTY(EditInstanceOnly, Category = "Pickups")
 	TSubclassOf<ASPowerUpActor> PowerUpClass;
 
     UPROPERTY(EditDefaultsOnly,Category="Pickups")

@@ -156,7 +156,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USHealthComponent); \
 
 #define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__DefaultHealth() { return STRUCT_OFFSET(USHealthComponent, DefaultHealth); } \
-	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(USHealthComponent, CurrentHealth); }
+	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(USHealthComponent, CurrentHealth); } \
+	FORCEINLINE static uint32 __PPO__HealthPercent() { return STRUCT_OFFSET(USHealthComponent, HealthPercent); }
 
 
 #define Shooter_Source_Shooter_Public_Components_USHealthComponent_h_12_PROLOG

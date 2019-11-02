@@ -57,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeSPickUpActor() {}
 				{ "ModuleRelativePath", "Public/SPickUpActor.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_PowerUpClass = { UE4CodeGen_Private::EPropertyClass::Class, "PowerUpClass", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000010001, 1, nullptr, STRUCT_OFFSET(ASPickUpActor, PowerUpClass), Z_Construct_UClass_ASPowerUpActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_PowerUpClass_MetaData, ARRAY_COUNT(NewProp_PowerUpClass_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_PowerUpClass = { UE4CodeGen_Private::EPropertyClass::Class, "PowerUpClass", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000000801, 1, nullptr, STRUCT_OFFSET(ASPickUpActor, PowerUpClass), Z_Construct_UClass_ASPowerUpActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_PowerUpClass_MetaData, ARRAY_COUNT(NewProp_PowerUpClass_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DecalComp_MetaData[] = {
 				{ "Category", "Components" },
@@ -98,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeSPickUpActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASPickUpActor, 1704309925);
+	IMPLEMENT_CLASS(ASPickUpActor, 596276747);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASPickUpActor(Z_Construct_UClass_ASPickUpActor, &ASPickUpActor::StaticClass, TEXT("/Script/Shooter"), TEXT("ASPickUpActor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASPickUpActor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

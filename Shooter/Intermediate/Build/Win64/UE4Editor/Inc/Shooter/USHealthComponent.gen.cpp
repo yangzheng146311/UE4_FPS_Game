@@ -204,6 +204,13 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 #endif
 			static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnHealthChanged = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnHealthChanged", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000010080000, 1, nullptr, STRUCT_OFFSET(USHealthComponent, OnHealthChanged), Z_Construct_UDelegateFunction_Shooter_OnHealthChangedSignature__DelegateSignature, METADATA_PARAMS(NewProp_OnHealthChanged_MetaData, ARRAY_COUNT(NewProp_OnHealthChanged_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthPercent_MetaData[] = {
+				{ "Category", "Health" },
+				{ "ModuleRelativePath", "Public/Components/USHealthComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthPercent = { UE4CodeGen_Private::EPropertyClass::Float, "HealthPercent", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000034, 1, nullptr, STRUCT_OFFSET(USHealthComponent, HealthPercent), METADATA_PARAMS(NewProp_HealthPercent_MetaData, ARRAY_COUNT(NewProp_HealthPercent_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentHealth_MetaData[] = {
 				{ "Category", "HealthComponent" },
 				{ "ModuleRelativePath", "Public/Components/USHealthComponent.h" },
@@ -219,6 +226,7 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DefaultHealth = { UE4CodeGen_Private::EPropertyClass::Float, "DefaultHealth", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010005, 1, nullptr, STRUCT_OFFSET(USHealthComponent, DefaultHealth), METADATA_PARAMS(NewProp_DefaultHealth_MetaData, ARRAY_COUNT(NewProp_DefaultHealth_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OnHealthChanged,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HealthPercent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentHealth,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DefaultHealth,
 			};
@@ -240,7 +248,7 @@ void EmptyLinkFunctionForGeneratedCodeUSHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USHealthComponent, 2191017044);
+	IMPLEMENT_CLASS(USHealthComponent, 803578152);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USHealthComponent(Z_Construct_UClass_USHealthComponent, &USHealthComponent::StaticClass, TEXT("/Script/Shooter"), TEXT("USHealthComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USHealthComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
