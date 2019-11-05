@@ -29,8 +29,10 @@ protected:
 	void EndCrouch();
 	void StartZoom();
 	void EndZoom();
-	void StartFire();
-	void EndFire();
+
+
+
+	
 	UPROPERTY(VisibleAnyWhere,BlueprintReadOnly,Category="Components")
 	UCameraComponent *CameraComp;
 
@@ -47,7 +49,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Player",meta=(ClampMin=0.1,ClampMax=100))
 	float ZoomInterpSpeed;
 
-	UPROPERTY(Replicated,BlueprintReadOnly, Category = "Health")
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Health")
 	bool bDied;
 
 	
@@ -93,6 +95,9 @@ public:
 
 	virtual FVector GetPawnViewLocation() const override;
 
-	
-	
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	void StartFire();
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	void EndFire();
 };

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Shooter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FEA11132-4D7F-4B9F-BA20-F09653F0B2BF}</UniqueIdentifier>
+      <UniqueIdentifier>{35439D71-C40D-492E-AC0F-573D103FB514}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DFA7DCED-FDDC-4F45-90D5-F6BE71C0B526}</UniqueIdentifier>
+      <UniqueIdentifier>{ABB9311A-8E0A-45B3-A4C6-2E2EAC87A6A5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Shooter">
-      <UniqueIdentifier>{3673A226-E301-4380-A025-2964DD16336E}</UniqueIdentifier>
+      <UniqueIdentifier>{84E34580-C98E-404A-9A3D-9DA2AD89DE13}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter\Shooter.Build.cs">
       <Filter>Source\Shooter</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\Shooter</Filter>
     </ClInclude>
     <Filter Include="Source\Shooter\Private">
-      <UniqueIdentifier>{C0E336D8-2120-470E-8F98-B3E8E2911B17}</UniqueIdentifier>
+      <UniqueIdentifier>{AB4C8E6A-5024-45CF-BF42-9A82710C2047}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Shooter\Private\ExplosiveBarrel.cpp">
       <Filter>Source\Shooter\Private</Filter>
@@ -53,26 +53,32 @@
     <ClCompile Include="..\..\Source\Shooter\Private\SCharacter.cpp">
       <Filter>Source\Shooter\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter\Private\SGameMode.cpp">
+      <Filter>Source\Shooter\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Shooter\Private\SPickUpActor.cpp">
+      <Filter>Source\Shooter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter\Private\SPowerUpActor.cpp">
       <Filter>Source\Shooter\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Shooter\Private\SWeapon.cpp">
       <Filter>Source\Shooter\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Shooter\Private\AI">
-      <UniqueIdentifier>{979BE9C3-6B11-4241-B613-F741F44990C6}</UniqueIdentifier>
+      <UniqueIdentifier>{88D3A285-CF9D-4D54-AAC5-14679FE2009A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Shooter\Private\AI\STracker.cpp">
       <Filter>Source\Shooter\Private\AI</Filter>
     </ClCompile>
     <Filter Include="Source\Shooter\Private\Components">
-      <UniqueIdentifier>{6DC38C80-F324-4DAC-8CC6-C486E51AE1CA}</UniqueIdentifier>
+      <UniqueIdentifier>{750AA90B-6C9C-4AD8-935F-6CE7A0384E2F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Shooter\Private\Components\USHealthComponent.cpp">
       <Filter>Source\Shooter\Private\Components</Filter>
     </ClCompile>
     <Filter Include="Source\Shooter\Public">
-      <UniqueIdentifier>{EC1A7AA2-DE7B-4BEE-B80A-246D5FB58EA1}</UniqueIdentifier>
+      <UniqueIdentifier>{A2546DFF-D6F6-4B33-BA70-65E53A1A83B2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Shooter\Public\ExplosiveBarrel.h">
       <Filter>Source\Shooter\Public</Filter>
@@ -80,32 +86,38 @@
     <ClInclude Include="..\..\Source\Shooter\Public\SCharacter.h">
       <Filter>Source\Shooter\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter\Public\SGameMode.h">
+      <Filter>Source\Shooter\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Shooter\Public\SPickUpActor.h">
+      <Filter>Source\Shooter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter\Public\SPowerUpActor.h">
       <Filter>Source\Shooter\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Shooter\Public\SWeapon.h">
       <Filter>Source\Shooter\Public</Filter>
     </ClInclude>
     <Filter Include="Source\Shooter\Public\AI">
-      <UniqueIdentifier>{C7AAB896-2C7D-446A-BA9E-82E1833E5770}</UniqueIdentifier>
+      <UniqueIdentifier>{765E32C7-B7B7-4DC9-AE26-DF8E70228EC5}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Shooter\Public\AI\STracker.h">
       <Filter>Source\Shooter\Public\AI</Filter>
     </ClInclude>
     <Filter Include="Source\Shooter\Public\Components">
-      <UniqueIdentifier>{7C934EB5-ADFB-437A-AA7C-CAE0CE8E775F}</UniqueIdentifier>
+      <UniqueIdentifier>{A187F440-C7C4-4100-BDFC-24BABF654265}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Shooter\Public\Components\USHealthComponent.h">
       <Filter>Source\Shooter\Public\Components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Shooter\Public\SPowerUpActor.h">
+    <ClInclude Include="..\..\Source\Shooter\Public\SGameState.h">
       <Filter>Source\Shooter\Public</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Shooter\Private\SPowerUpActor.cpp">
+    <ClCompile Include="..\..\Source\Shooter\Private\SGameState.cpp">
       <Filter>Source\Shooter\Private</Filter>
     </ClCompile>
   </ItemGroup>

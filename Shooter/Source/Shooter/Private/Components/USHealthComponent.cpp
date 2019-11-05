@@ -18,6 +18,7 @@ USHealthComponent::USHealthComponent()
 void USHealthComponent::BeginPlay()
 {
 	CurrentHealth = DefaultHealth;
+	HealthPercent = CurrentHealth / DefaultHealth;
 	Super::BeginPlay();
 	if (GetOwnerRole() == ROLE_Authority)
 	{
@@ -55,9 +56,15 @@ void USHealthComponent::HandleTakeAnyDamage(AActor * DamagedActor, float Damage,
 	OnHealthChanged.Broadcast(this,CurrentHealth,Damage,DamageType, InstigatedBy, DamageCauser);
 }
 
+float USHealthComponent::GetCurrentHealth()
+{
+	return CurrentHealth;
+}
+
 void USHealthComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(USHealthComponent, CurrentHealth);
+	DOREPLIFETIME(USHealthComponent, HealthPercent);
 
 }
 
