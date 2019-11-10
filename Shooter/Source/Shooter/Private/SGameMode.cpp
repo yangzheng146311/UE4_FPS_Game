@@ -137,6 +137,7 @@ void ASGameMode::RestartDeadPlayers()
 		APlayerController* PC = It->Get();
 		if (PC&&PC->GetPawn() == nullptr) {
 			RestartPlayer(PC);
+			
 		}
 	}
 }

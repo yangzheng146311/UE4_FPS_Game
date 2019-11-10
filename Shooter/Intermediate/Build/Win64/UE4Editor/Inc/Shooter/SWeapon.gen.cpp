@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 	SHOOTER_API UClass* Z_Construct_UClass_ASWeapon();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	SHOOTER_API UFunction* Z_Construct_UFunction_ASWeapon_Fire();
+	SHOOTER_API UFunction* Z_Construct_UFunction_ASWeapon_GetSoundCue();
+	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
 	SHOOTER_API UFunction* Z_Construct_UFunction_ASWeapon_OnRep_HitScanTrace();
 	SHOOTER_API UFunction* Z_Construct_UFunction_ASWeapon_ServerFire();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
@@ -107,6 +109,7 @@ static struct FScriptStruct_Shooter_StaticRegisterNativesFHitScanTrace
 		UClass* Class = ASWeapon::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Fire", &ASWeapon::execFire },
+			{ "GetSoundCue", &ASWeapon::execGetSoundCue },
 			{ "OnRep_HitScanTrace", &ASWeapon::execOnRep_HitScanTrace },
 			{ "ServerFire", &ASWeapon::execServerFire },
 		};
@@ -124,6 +127,30 @@ static struct FScriptStruct_Shooter_StaticRegisterNativesFHitScanTrace
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ASWeapon, "Fire", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04080401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_ASWeapon_GetSoundCue()
+	{
+		struct SWeapon_eventGetSoundCue_Parms
+		{
+			USoundCue* ReturnValue;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Object, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000580, 1, nullptr, STRUCT_OFFSET(SWeapon_eventGetSoundCue_Parms, ReturnValue), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Weapon" },
+				{ "ModuleRelativePath", "Public/SWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ASWeapon, "GetSoundCue", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(SWeapon_eventGetSoundCue_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -173,6 +200,7 @@ static struct FScriptStruct_Shooter_StaticRegisterNativesFHitScanTrace
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_ASWeapon_Fire, "Fire" }, // 1729660767
+				{ &Z_Construct_UFunction_ASWeapon_GetSoundCue, "GetSoundCue" }, // 1760510813
 				{ &Z_Construct_UFunction_ASWeapon_OnRep_HitScanTrace, "OnRep_HitScanTrace" }, // 3458297648
 				{ &Z_Construct_UFunction_ASWeapon_ServerFire, "ServerFire" }, // 3591185035
 			};
@@ -259,6 +287,13 @@ static struct FScriptStruct_Shooter_StaticRegisterNativesFHitScanTrace
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MeshComp = { UE4CodeGen_Private::EPropertyClass::Object, "MeshComp", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(ASWeapon, MeshComp), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_MeshComp_MetaData, ARRAY_COUNT(NewProp_MeshComp_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShootingSound_MetaData[] = {
+				{ "Category", "Sound" },
+				{ "ModuleRelativePath", "Public/SWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ShootingSound = { UE4CodeGen_Private::EPropertyClass::Object, "ShootingSound", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASWeapon, ShootingSound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(NewProp_ShootingSound_MetaData, ARRAY_COUNT(NewProp_ShootingSound_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HitScanTrace,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TimeBetweenShots,
@@ -271,6 +306,7 @@ static struct FScriptStruct_Shooter_StaticRegisterNativesFHitScanTrace
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FireCamShake,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageType,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MeshComp,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ShootingSound,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<ASWeapon>::IsAbstract,
@@ -290,7 +326,7 @@ static struct FScriptStruct_Shooter_StaticRegisterNativesFHitScanTrace
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASWeapon, 2020429034);
+	IMPLEMENT_CLASS(ASWeapon, 1305646614);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASWeapon(Z_Construct_UClass_ASWeapon, &ASWeapon::StaticClass, TEXT("/Script/Shooter"), TEXT("ASWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

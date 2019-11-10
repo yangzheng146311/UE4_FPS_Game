@@ -8,6 +8,7 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class USoundCue;
 #ifdef SHOOTER_SWeapon_generated_h
 #error "SWeapon.generated.h already included, missing '#pragma once' in SWeapon.h"
 #endif
@@ -21,6 +22,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Shooter_Source_Shooter_Public_SWeapon_h_26_RPC_WRAPPERS \
 	virtual bool ServerFire_Validate(); \
 	virtual void ServerFire_Implementation(); \
+ \
+	DECLARE_FUNCTION(execGetSoundCue) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(USoundCue**)Z_Param__Result=P_THIS->GetSoundCue(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execServerFire) \
 	{ \
@@ -55,6 +64,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Shooter_Source_Shooter_Public_SWeapon_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual bool ServerFire_Validate(); \
 	virtual void ServerFire_Implementation(); \
+ \
+	DECLARE_FUNCTION(execGetSoundCue) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(USoundCue**)Z_Param__Result=P_THIS->GetSoundCue(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execServerFire) \
 	{ \
@@ -135,6 +152,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 
 
 #define Shooter_Source_Shooter_Public_SWeapon_h_26_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ShootingSound() { return STRUCT_OFFSET(ASWeapon, ShootingSound); } \
 	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(ASWeapon, MeshComp); } \
 	FORCEINLINE static uint32 __PPO__DamageType() { return STRUCT_OFFSET(ASWeapon, DamageType); } \
 	FORCEINLINE static uint32 __PPO__FireCamShake() { return STRUCT_OFFSET(ASWeapon, FireCamShake); } \

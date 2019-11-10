@@ -8,9 +8,13 @@
 #include"Components/SkeletalMeshComponent.h"
 #include"PhysicalMaterials//PhysicalMaterial.h"
 #include"Shooter.h"
+
 #include"UObject//ConstructorHelpers.h"
 #include"Public/TimerManager.h"
 #include "Net/UnrealNetwork.h"
+#include "Sound/SoundCue.h"
+
+
 static int32 DebugWeaponDrawing = 0;
 FAutoConsoleVariableRef  CVARDebugWeaponDrawing(
 	TEXT("Shoot.DebugWeapons"),
@@ -162,6 +166,7 @@ void ASWeapon::StartFire()
 {
 	float FirstDelay = FMath::Max(LastFireTime + TimeBetweenShots - GetWorld()->TimeSeconds,0.0f);
 	GetWorldTimerManager().SetTimer(TimerHandle_TimeBetweenShot, this, &ASWeapon::Fire, TimeBetweenShots, true, FirstDelay);
+
 }
 
 void ASWeapon::EndFire()
@@ -169,8 +174,31 @@ void ASWeapon::EndFire()
 	GetWorldTimerManager().ClearTimer(TimerHandle_TimeBetweenShot);
 }
 
+USoundCue * ASWeapon::GetSoundCue()
+{
+
+	if (ShootingSound)
+		return ShootingSound;
+	else
+
+
+	return nullptr;
+}
+
 void ASWeapon::PlayFireEffect(FVector TracerEndPoint)
 {
+
+	if (ShootingSound)
+	{
+
+		UGameplayStatics::PlaySoundAtLocation(this, ShootingSound, GetActorLocation());
+		
+		UE_LOG(LogTemp, Log, TEXT("Play voice"));
+
+	}
+
+
+
 	if (MuzzleEffect)
 	{
 		UGameplayStatics::SpawnEmitterAttached(MuzzleEffect, MeshComp, MuzzleSocketName);

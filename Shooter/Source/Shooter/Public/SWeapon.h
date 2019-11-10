@@ -8,7 +8,7 @@
 
 class USkeletalMeshComponent;
 class UParticleSystem;
-
+class USoundCue;
 USTRUCT()
 struct FHitScanTrace {
 	GENERATED_BODY()
@@ -32,9 +32,11 @@ public:
 protected:
 	
 	
+	
 	void PlayFireEffect(FVector TracerEndPoint);
 
-
+	UPROPERTY(EditDefaultsOnly, Category = "Sound")
+	USoundCue* ShootingSound;
 
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
 	USkeletalMeshComponent* MeshComp;
@@ -90,6 +92,9 @@ public:
 
 	void StartFire();
 	void EndFire();
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	USoundCue* GetSoundCue();
 
 	
 	

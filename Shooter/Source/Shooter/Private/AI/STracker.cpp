@@ -76,12 +76,14 @@ void ASTracker::HandleTakeDamage(USHealthComponent * HealthComponent, float Heal
 		MatInst->SetScalarParameterValue("LastTimeTakeDamage", GetWorld()->TimeSeconds);
 	}
 
-
+	 
 	if (Health <= 0) {
 		SelfDestruct();
 	}
 
 	UE_LOG(LogTemp, Log, TEXT("Health is %s of %s"), *FString::SanitizeFloat(Health), *GetName());
+	
+	
 }
 
 void ASTracker::DamageSelf()

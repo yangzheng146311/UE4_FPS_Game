@@ -84,6 +84,7 @@ public:
 	float TempEnergy;
 
 
+	
 
 
 
@@ -100,4 +101,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	void EndFire();
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	ASWeapon* GetWeapon();
 };

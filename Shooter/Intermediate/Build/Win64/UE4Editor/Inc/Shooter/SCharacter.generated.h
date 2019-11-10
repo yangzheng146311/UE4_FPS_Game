@@ -8,6 +8,7 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ASWeapon;
 class USHealthComponent;
 class UDamageType;
 class AController;
@@ -18,6 +19,14 @@ class AActor;
 #define SHOOTER_SCharacter_generated_h
 
 #define Shooter_Source_Shooter_Public_SCharacter_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetWeapon) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ASWeapon**)Z_Param__Result=P_THIS->GetWeapon(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execEndFire) \
 	{ \
@@ -51,6 +60,14 @@ class AActor;
 
 
 #define Shooter_Source_Shooter_Public_SCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetWeapon) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ASWeapon**)Z_Param__Result=P_THIS->GetWeapon(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execEndFire) \
 	{ \

@@ -38,6 +38,8 @@ ASCharacter::ASCharacter()
 // Called when the game starts or when spawned
 void ASCharacter::BeginPlay()
 {
+
+	
 	Super::BeginPlay();
 	DefaultFOV = CameraComp->FieldOfView;
 
@@ -49,6 +51,7 @@ void ASCharacter::BeginPlay()
 
 	if (Role == ROLE_Authority)
 	{
+		UE_LOG(LogTemp, Log, TEXT("Start"));
 
 		if (StarterWeaponClass)
 		{
@@ -62,7 +65,7 @@ void ASCharacter::BeginPlay()
 		}
 	}
 
-
+	
 
 }
 
@@ -121,9 +124,28 @@ void ASCharacter::OnHealthChanged(USHealthComponent * HealthComponet, float Heal
 		DetachFromControllerPendingDestroy();
 		SetLifeSpan(5.0f);
 
+		ASWeapon* Weapon = GetWeapon();
+
+		if (Weapon)
+		{
+			Weapon->SetLifeSpan(1.0f);  
+
+		}
+
 
 	}
 
+}
+
+ASWeapon * ASCharacter::GetWeapon()
+{
+	if (CurrentWeapon)
+		return CurrentWeapon;
+	else
+	{
+
+		return nullptr;
+	}
 }
 
 // Called every frame

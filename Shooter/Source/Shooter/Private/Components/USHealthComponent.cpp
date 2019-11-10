@@ -39,6 +39,7 @@ void USHealthComponent::OnRep_Health(float OldHealth)
 {
 	float Damage = CurrentHealth - OldHealth;
 	HealthPercent = CurrentHealth / DefaultHealth;
+	
 	OnHealthChanged.Broadcast(this, CurrentHealth, Damage, nullptr, nullptr, nullptr);
 }
 
@@ -52,7 +53,9 @@ void USHealthComponent::HandleTakeAnyDamage(AActor * DamagedActor, float Damage,
 
 	CurrentHealth = FMath::Clamp(CurrentHealth - Damage, 0.0f, DefaultHealth);
 	HealthPercent = CurrentHealth / DefaultHealth;
-	UE_LOG(LogTemp, Warning, TEXT("Health Changed:%s"), *FString::SanitizeFloat(CurrentHealth));
+	//UE_LOG(LogTemp, Warning, TEXT("Health Changed:%s"), *FString::SanitizeFloat(CurrentHealth));
+	
+	UE_LOG(LogTemp, Log, TEXT("healthPercent:%f"), HealthPercent);
 	OnHealthChanged.Broadcast(this,CurrentHealth,Damage,DamageType, InstigatedBy, DamageCauser);
 }
 
